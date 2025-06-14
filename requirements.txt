@@ -1,0 +1,40 @@
+# Core NAO dependencies
+naoqi-sdk>=2.8.6
+naoqi-python-sdk>=2.8.6
+python-naoqi>=2.8.6
+
+# Web Framework
+Flask==2.0.1
+Flask-SocketIO==5.1.1
+python-socketio==5.4.0
+python-engineio==4.2.1
+Werkzeug==2.0.1
+eventlet==0.33.0
+
+# Database
+SQLAlchemy==1.4.23
+Flask-SQLAlchemy==2.5.1
+
+# Template Engine
+Jinja2==3.0.1
+MarkupSafe==2.0.1
+
+# Common utility packages
+numpy>=1.19.5
+opencv-python>=4.5.3
+pillow>=8.3.2
+requests>=2.26.0
+
+# Speech recognition and text processing
+SpeechRecognition>=3.8.1
+pyttsx3>=2.90
+
+# Additional useful packages
+python-dotenv>=0.19.0
+websockets>=10.0
+gunicorn>=20.1.0
+
+# Testing and Development
+pytest>=6.2.5
+black>=21.7b0
+flake8>=3.9.2
