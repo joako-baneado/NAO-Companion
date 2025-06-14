@@ -1,0 +1,380 @@
+texto,intencion
+"Tengo problemas con mi profesor de cálculo",PROBLEMAS_ACADEMICOS
+"No entiendo nada de esta tarea",PROBLEMAS_ACADEMICOS
+"Estoy muy nervioso por el examen final",ESTRES_EXAMENES
+"No puedo dormir por la evaluación",ESTRES_EXAMENES
+"Mis padres discuten mucho últimamente",PROBLEMAS_PERSONALES
+"Tengo problemas con mi pareja",PROBLEMAS_PERSONALES
+"Me siento sin ganas de seguir",FALTA_MOTIVACION
+"Estoy desmotivado desde hace semanas",FALTA_MOTIVACION
+"No sé si esta carrera es lo mío",DUDAS_CARRERA
+"Quiero cambiar de carrera",DUDAS_CARRERA
+"Me cuesta hacer amigos en la universidad",PROBLEMAS_SOCIALES
+"Me siento muy solo en clase",PROBLEMAS_SOCIALES
+"Hola, ¿cómo estás?",SALUDO_GENERAL
+"Buenos días, vengo a conversar",SALUDO_GENERAL
+"Adiós, muchas gracias",DESPEDIDA
+"Nos vemos luego",DESPEDIDA
+"Tengo hambre",SIN_INTENCION
+"Hoy hace sol",SIN_INTENCION
+"Mi profesora de química es muy estricta y no entiendo sus explicaciones",PROBLEMAS_ACADEMICOS
+"El docente de historia siempre llega tarde a clase",PROBLEMAS_ACADEMICOS
+"No logro seguir el ritmo de la clase de matemáticas",PROBLEMAS_ACADEMICOS
+"Mi profesor de inglés no responde mis dudas por correo",PROBLEMAS_ACADEMICOS
+"La maestra de física explica muy rápido y me pierdo",PROBLEMAS_ACADEMICOS
+"Tengo conflictos con mi profesor de filosofía por mis opiniones",PROBLEMAS_ACADEMICOS
+"El docente de programación no me ayuda cuando tengo errores",PROBLEMAS_ACADEMICOS
+"Mi profesora de literatura es muy exigente con los ensayos",PROBLEMAS_ACADEMICOS
+"No entiendo la metodología de enseñanza de mi profesor",PROBLEMAS_ACADEMICOS
+"El maestro de estadística va muy avanzado en el temario",PROBLEMAS_ACADEMICOS
+"Mi profesora de biología no acepta preguntas durante clase",PROBLEMAS_ACADEMICOS
+"Tengo problemas para entender las explicaciones del docente",PROBLEMAS_ACADEMICOS
+"El profesor de economía usa términos muy técnicos",PROBLEMAS_ACADEMICOS
+"No logro conectar con el estilo de enseñanza de mi maestra",PROBLEMAS_ACADEMICOS
+"Mi profesor de derecho es muy intimidante",PROBLEMAS_ACADEMICOS
+"La tarea de álgebra me tiene completamente perdido",PROBLEMAS_ACADEMICOS
+"No comprendo este problema de geometría",PROBLEMAS_ACADEMICOS
+"La lectura asignada es demasiado complicada para mí",PROBLEMAS_ACADEMICOS
+"Este proyecto grupal es un caos total",PROBLEMAS_ACADEMICOS
+"No sé cómo empezar mi ensayo de sociología",PROBLEMAS_ACADEMICOS
+"La práctica de laboratorio me resultó imposible",PROBLEMAS_ACADEMICOS
+"No entiendo las instrucciones del trabajo final",PROBLEMAS_ACADEMICOS
+"Esta asignación de programación me supera",PROBLEMAS_ACADEMICOS
+"No logro resolver estos ejercicios de cálculo",PROBLEMAS_ACADEMICOS
+"La investigación que me pidieron es muy compleja",PROBLEMAS_ACADEMICOS
+"No sé qué fuentes usar para mi tesis",PROBLEMAS_ACADEMICOS
+"Este análisis estadístico me confunde totalmente",PROBLEMAS_ACADEMICOS
+"No entiendo cómo hacer la referencia bibliográfica",PROBLEMAS_ACADEMICOS
+"La traducción del texto en francés me cuesta mucho",PROBLEMAS_ACADEMICOS
+"No comprendo la metodología para el experimento",PROBLEMAS_ACADEMICOS
+"Estoy muy ansioso por la presentación de mañana",ESTRES_EXAMENES
+"No he podido estudiar nada para el parcial",ESTRES_EXAMENES
+"Me da pánico hablar en público durante los exámenes orales",ESTRES_EXAMENES
+"Siento que voy a reprobar el examen de mañana",ESTRES_EXAMENES
+"Tengo mucha presión por sacar buenas notas",ESTRES_EXAMENES
+"Me tiemblan las manos cuando tengo que presentar",ESTRES_EXAMENES
+"No puedo concentrarme para estudiar",ESTRES_EXAMENES
+"Siento que no voy a recordar nada en el examen",ESTRES_EXAMENES
+"Me pongo muy nervioso cuando veo la hoja del examen",ESTRES_EXAMENES
+"Tengo miedo de quedarme en blanco durante la prueba",ESTRES_EXAMENES
+"La presión de los exámenes finales me agobia",ESTRES_EXAMENES
+"No logro manejar mis nervios antes de las evaluaciones",ESTRES_EXAMENES
+"Me sudan las manos cada vez que tengo un examen",ESTRES_EXAMENES
+"Siento náuseas antes de cada evaluación importante",ESTRES_EXAMENES
+"No puedo relajarme sabiendo que tengo exámenes pendientes",ESTRES_EXAMENES
+"Me da ansiedad solo pensar en la fecha del examen",ESTRES_EXAMENES
+"Siento que mi mente se bloquea durante las pruebas",ESTRES_EXAMENES
+"No puedo controlar los nervios en los exámenes orales",ESTRES_EXAMENES
+"Me da pánico que me pregunten algo que no estudié",ESTRES_EXAMENES
+"Siento mucha presión por mantener mi beca de estudios",ESTRES_EXAMENES
+"Me cuesta trabajo respirar cuando estoy en un examen",ESTRES_EXAMENES
+"Tengo pesadillas con los exámenes que se acercan",ESTRES_EXAMENES
+"No logro dormir bien antes de las evaluaciones",ESTRES_EXAMENES
+"Me siento abrumado con tantos exámenes juntos",ESTRES_EXAMENES
+"La ansiedad no me deja pensar con claridad en los exámenes",ESTRES_EXAMENES
+"Mis hermanos pelean constantemente en casa",PROBLEMAS_PERSONALES
+"Mi familia está pasando por problemas económicos",PROBLEMAS_PERSONALES
+"Mis padres se van a divorciar",PROBLEMAS_PERSONALES
+"Tengo problemas de comunicación con mi mamá",PROBLEMAS_PERSONALES
+"Mi papá bebe mucho y eso me preocupa",PROBLEMAS_PERSONALES
+"En casa hay mucha tensión últimamente",PROBLEMAS_PERSONALES
+"Mi abuela está muy enferma y me da tristeza",PROBLEMAS_PERSONALES
+"Tengo conflictos con mi hermana mayor",PROBLEMAS_PERSONALES
+"Mis padres no entienden mis decisiones",PROBLEMAS_PERSONALES
+"Mi familia no apoya mi elección de carrera",PROBLEMAS_PERSONALES
+"Hay violencia doméstica en mi hogar",PROBLEMAS_PERSONALES
+"Mi novio y yo terminamos después de dos años",PROBLEMAS_PERSONALES
+"Tengo celos de mi pareja sin razón aparente",PROBLEMAS_PERSONALES
+"Mi relación de pareja está pasando por una crisis",PROBLEMAS_PERSONALES
+"No sé si debo seguir con mi novia",PROBLEMAS_PERSONALES
+"Mi pareja no me entiende cuando le cuento mis problemas",PROBLEMAS_PERSONALES
+"Creo que mi novio me está siendo infiel",PROBLEMAS_PERSONALES
+"Discuto mucho con mi pareja por cosas sin importancia",PROBLEMAS_PERSONALES
+"Mi relación a distancia se está complicando",PROBLEMAS_PERSONALES
+"No sé si estoy enamorado realmente",PROBLEMAS_PERSONALES
+"Mi pareja y yo queremos cosas diferentes en la vida",PROBLEMAS_PERSONALES
+"Tengo problemas para confiar en las personas",PROBLEMAS_PERSONALES
+"Me siento muy inseguro de mí mismo",PROBLEMAS_PERSONALES
+"Sufro de baja autoestima desde hace tiempo",PROBLEMAS_PERSONALES
+"No logro superar la muerte de mi mascota",PROBLEMAS_PERSONALES
+"Me cuesta mucho expresar mis emociones",PROBLEMAS_PERSONALES
+"Siento que no valgo nada como persona",PROBLEMAS_PERSONALES
+"Tengo problemas para controlar mi enojo",PROBLEMAS_PERSONALES
+"Me siento muy solo en el mundo",PROBLEMAS_PERSONALES
+"No sé cómo manejar mis emociones negativas",PROBLEMAS_PERSONALES
+"Tengo miedo al futuro y a lo desconocido",PROBLEMAS_PERSONALES
+"Me siento perdido en la vida",FALTA_MOTIVACION
+"No encuentro sentido a lo que estoy estudiando",FALTA_MOTIVACION
+"Ya no me emociona nada de lo que hago",FALTA_MOTIVACION
+"Siento que estoy perdiendo el tiempo en la universidad",FALTA_MOTIVACION
+"No tengo energía para hacer mis actividades diarias",FALTA_MOTIVACION
+"Me levanto sin ganas de hacer nada",FALTA_MOTIVACION
+"Todo me parece aburrido y sin propósito",FALTA_MOTIVACION
+"No veo el punto de seguir esforzándome",FALTA_MOTIVACION
+"Me falta la pasión que tenía antes por estudiar",FALTA_MOTIVACION
+"Siento que nada de lo que hago tiene valor",FALTA_MOTIVACION
+"No encuentro la motivación para terminar mis proyectos",FALTA_MOTIVACION
+"Me cuesta trabajo encontrar razones para seguir adelante",FALTA_MOTIVACION
+"Siento que estoy en piloto automático todo el tiempo",FALTA_MOTIVACION
+"No me emociona pensar en mi futuro profesional",FALTA_MOTIVACION
+"Todo me da igual últimamente",FALTA_MOTIVACION
+"No tengo metas claras en la vida",FALTA_MOTIVACION
+"Me siento vacío por dentro",FALTA_MOTIVACION
+"No encuentro algo que realmente me apasione",FALTA_MOTIVACION
+"Siento que estoy viviendo la vida de otra persona",FALTA_MOTIVACION
+"No sé para qué sirve lo que estoy aprendiendo",FALTA_MOTIVACION
+"Me aburro fácilmente con todo",FALTA_MOTIVACION
+"No tengo aspiraciones ni sueños",FALTA_MOTIVACION
+"Siento que mi vida no tiene dirección",FALTA_MOTIVACION
+"No encuentro sentido a seguir estudiando",FALTA_MOTIVACION
+"Me siento desconectado de mis objetivos",FALTA_MOTIVACION
+"No estoy seguro de haber elegido bien mi carrera",DUDAS_CARRERA
+"Pienso que debería estar estudiando otra cosa",DUDAS_CARRERA
+"Me arrepiento de haber entrado a esta universidad",DUDAS_CARRERA
+"No sé si mi carrera tiene futuro laboral",DUDAS_CARRERA
+"Mis materias no me gustan para nada",DUDAS_CARRERA
+"Creo que elegí mal mi área de especialización",DUDAS_CARRERA
+"No me veo trabajando en lo que estoy estudiando",DUDAS_CARRERA
+"Quiero cambiarme a otra facultad",DUDAS_CARRERA
+"Mi carrera no es lo que esperaba",DUDAS_CARRERA
+"Siento que perdí tiempo estudiando esto",DUDAS_CARRERA
+"No tengo las habilidades necesarias para mi carrera",DUDAS_CARRERA
+"Me da miedo no encontrar trabajo con mi título",DUDAS_CARRERA
+"No estoy seguro si continuar o abandonar mis estudios",DUDAS_CARRERA
+"Mi familia eligió mi carrera y yo no estoy convencido",DUDAS_CARRERA
+"No sé si vale la pena seguir invirtiendo en esta carrera",DUDAS_CARRERA
+"Tengo dudas sobre la calidad de mi programa académico",DUDAS_CARRERA
+"No me identifico con el perfil profesional de mi carrera",DUDAS_CARRERA
+"Creo que hay otras carreras que me gustarían más",DUDAS_CARRERA
+"No sé si tengo las competencias para ser exitoso en esto",DUDAS_CARRERA
+"Mi carrera no coincide con mis valores personales",DUDAS_CARRERA
+"Siento que no encajo en el ambiente de mi carrera",DUDAS_CARRERA
+"No estoy seguro si esta carrera me dará estabilidad económica",DUDAS_CARRERA
+"Me cuesta trabajo relacionarme con mis compañeros de clase",PROBLEMAS_SOCIALES
+"Soy muy tímido y no logro hacer amigos",PROBLEMAS_SOCIALES
+"Me siento excluido de los grupos de estudio",PROBLEMAS_SOCIALES
+"Nadie me invita a las actividades sociales de la universidad",PROBLEMAS_SOCIALES
+"Tengo problemas para comunicarme con mis compañeros",PROBLEMAS_SOCIALES
+"Me da pena participar en clase",PROBLEMAS_SOCIALES
+"Siento que mis compañeros me juzgan",PROBLEMAS_SOCIALES
+"No tengo con quién almorzar en la universidad",PROBLEMAS_SOCIALES
+"Me cuesta trabajo adaptarme al ambiente universitario",PROBLEMAS_SOCIALES
+"Siento que no pertenezco a ningún grupo social",PROBLEMAS_SOCIALES
+"Tengo miedo de hablar en público frente a mis compañeros",PROBLEMAS_SOCIALES
+"Me siento inferior a mis compañeros de clase",PROBLEMAS_SOCIALES
+"No sé cómo iniciar conversaciones con la gente",PROBLEMAS_SOCIALES
+"Mis compañeros parecen más inteligentes que yo",PROBLEMAS_SOCIALES
+"Me cuesta trabajo confiar en las personas nuevas",PROBLEMAS_SOCIALES
+"Siento que soy muy diferente a los demás estudiantes",PROBLEMAS_SOCIALES
+"No logro mantener amistades duraderas",PROBLEMAS_SOCIALES
+"Me da ansiedad social estar en grupos grandes",PROBLEMAS_SOCIALES
+"Prefiero estar solo que intentar socializar",PROBLEMAS_SOCIALES
+"Siento que la gente no se interesa por conocerme",PROBLEMAS_SOCIALES
+"Me cuesta trabajo expresar mis opiniones en grupo",PROBLEMAS_SOCIALES
+"Tengo miedo al rechazo social",PROBLEMAS_SOCIALES
+"No sé cómo comportarme en situaciones sociales",PROBLEMAS_SOCIALES
+"Me siento invisible entre mis compañeros",PROBLEMAS_SOCIALES
+"Tengo problemas para trabajar en equipo",PROBLEMAS_SOCIALES
+"¡Hola! ¿Cómo te va?",SALUDO_GENERAL
+"Buenas tardes, necesito conversar con alguien",SALUDO_GENERAL
+"¿Qué tal? Vengo buscando ayuda",SALUDO_GENERAL
+"Saludos, espero que estés bien",SALUDO_GENERAL
+"Hola, ¿puedo consultarte algo?",SALUDO_GENERAL
+"Buenos días, ¿cómo amaneciste?",SALUDO_GENERAL
+"¡Qué gusto saludarte!",SALUDO_GENERAL
+"Hola, espero no molestarte",SALUDO_GENERAL
+"Buenas noches, ¿cómo estás?",SALUDO_GENERAL
+"¡Hola! Me da mucho gusto verte",SALUDO_GENERAL
+"¿Cómo has estado últimamente?",SALUDO_GENERAL
+"Saludos cordiales",SALUDO_GENERAL
+"¡Hola! ¿Todo bien por ahí?",SALUDO_GENERAL
+"Buenos días, ¿cómo te sientes hoy?",SALUDO_GENERAL
+"Hola, vengo a platicar un rato",SALUDO_GENERAL
+"¿Qué tal tu día?",SALUDO_GENERAL
+"Buenas tardes, ¿cómo va todo?",SALUDO_GENERAL
+"Hola, me alegra poder hablar contigo",SALUDO_GENERAL
+"¿Cómo estás? Espero que muy bien",SALUDO_GENERAL
+"¡Qué gusto encontrarte!",SALUDO_GENERAL
+"Buenos días, ¿cómo iniciaste la semana?",SALUDO_GENERAL
+"Hola, ¿cómo te ha ido?",SALUDO_GENERAL
+"Buenas, ¿puedo molestar un momento?",SALUDO_GENERAL
+"¡Hola! ¿Cómo va tu día?",SALUDO_GENERAL
+"Saludos, ¿todo en orden?",SALUDO_GENERAL
+"Hasta luego, que tengas buen día",DESPEDIDA
+"Nos vemos pronto, cuídate mucho",DESPEDIDA
+"Adiós, fue un placer conversar contigo",DESPEDIDA
+"Me despido, que descanses",DESPEDIDA
+"Hasta la próxima, gracias por todo",DESPEDIDA
+"Chau, nos hablamos después",DESPEDIDA
+"Me voy, que tengas una excelente tarde",DESPEDIDA
+"Hasta pronto, espero verte de nuevo",DESPEDIDA
+"Adiós, que pases un buen fin de semana",DESPEDIDA
+"Me despido por ahora, cuídate",DESPEDIDA
+"Nos vemos luego, que todo salga bien",DESPEDIDA
+"Hasta más tarde, gracias por escucharme",DESPEDIDA
+"Chao, fue muy útil esta conversación",DESPEDIDA
+"Me voy tranquilo, muchas gracias",DESPEDIDA
+"Hasta luego, que tengas suerte",DESPEDIDA
+"Adiós, espero poder regresar pronto",DESPEDIDA
+"Me despido con gratitud",DESPEDIDA
+"Nos vemos, que tengas una linda noche",DESPEDIDA
+"Hasta la vista, cuídate mucho",DESPEDIDA
+"Chau, que descanses bien",DESPEDIDA
+"Me voy, hasta la próxima ocasión",DESPEDIDA
+"Adiós, gracias por tu tiempo",DESPEDIDA
+"Nos vemos después, que todo esté bien",DESPEDIDA
+"Hasta pronto, fue un gusto",DESPEDIDA
+"Me despido, que tengas éxito en todo",DESPEDIDA
+"Hoy está lloviendo mucho",SIN_INTENCION
+"Me gusta el color azul",SIN_INTENCION
+"Los gatos son animales interesantes",SIN_INTENCION
+"Ayer vi una película muy buena",SIN_INTENCION
+"El café me gusta sin azúcar",SIN_INTENCION
+"Los lunes son días difíciles",SIN_INTENCION
+"Me encanta escuchar música clásica",SIN_INTENCION
+"El tráfico está terrible hoy",SIN_INTENCION
+"Los tacos son mi comida favorita",SIN_INTENCION
+"Mañana es mi cumpleaños",SIN_INTENCION
+"Me gusta caminar por el parque",SIN_INTENCION
+"El verano es mi estación preferida",SIN_INTENCION
+"Los libros de aventuras me fascinan",SIN_INTENCION
+"Tengo sueño desde temprano",SIN_INTENCION
+"Me gusta ver series en la noche",SIN_INTENCION
+"El chocolate me hace feliz",SIN_INTENCION
+"Los domingos son para descansar",SIN_INTENCION
+"Me gusta hacer ejercicio por las mañanas",SIN_INTENCION
+"Los videojuegos son entretenidos",SIN_INTENCION
+"Hoy es un día perfecto para salir",SIN_INTENCION
+"Me gusta cocinar los fines de semana",SIN_INTENCION
+"Los perros son muy leales",SIN_INTENCION
+"El mar me da mucha paz",SIN_INTENCION
+"Me gusta levantarme temprano",SIN_INTENCION
+"Las flores huelen muy bien",SIN_INTENCION
+"No logro entender las ecuaciones diferenciales",PROBLEMAS_ACADEMICOS
+"Mi profesora de química orgánica va muy rápido",PROBLEMAS_ACADEMICOS
+"Tengo dificultades con la sintaxis de programación",PROBLEMAS_ACADEMICOS
+"No comprendo los conceptos de termodinámica",PROBLEMAS_ACADEMICOS
+"Me cuesta trabajo con las demostraciones matemáticas",PROBLEMAS_ACADEMICOS
+"El profesor de anatomía no explica claramente",PROBLEMAS_ACADEMICOS
+"No entiendo la metodología de investigación",PROBLEMAS_ACADEMICOS
+"Tengo problemas con la gramática del inglés avanzado",PROBLEMAS_ACADEMICOS
+"Mi maestro de contabilidad asume que sabemos conceptos básicos",PROBLEMAS_ACADEMICOS
+"No logro seguir las explicaciones de microeconomía",PROBLEMAS_ACADEMICOS
+"El docente de ingeniería estructural es muy exigente",PROBLEMAS_ACADEMICOS
+"No entiendo las reacciones químicas complejas",PROBLEMAS_ACADEMICOS
+"Mi profesora de neurociencia usa términos muy técnicos",PROBLEMAS_ACADEMICOS
+"Tengo dificultades con el análisis literario",PROBLEMAS_ACADEMICOS
+"No comprendo los circuitos eléctricos avanzados",PROBLEMAS_ACADEMICOS
+"Este ensayo de filosofía me tiene bloqueado completamente",PROBLEMAS_ACADEMICOS
+"No sé cómo interpretar estos datos estadísticos",PROBLEMAS_ACADEMICOS
+"La práctica de laboratorio de biología molecular me confunde",PROBLEMAS_ACADEMICOS
+"No logro entender el código que escribí la semana pasada",PROBLEMAS_ACADEMICOS
+"El análisis de casos clínicos me resulta muy difícil",PROBLEMAS_ACADEMICOS
+"No sé cómo estructurar mi proyecto de arquitectura",PROBLEMAS_ACADEMICOS
+"Esta simulación por computadora no me funciona",PROBLEMAS_ACADEMICOS
+"No entiendo los diagramas de flujo del proceso",PROBLEMAS_ACADEMICOS
+"El manual de procedimientos médicos es muy confuso",PROBLEMAS_ACADEMICOS
+"No logro resolver estos problemas de optimización",PROBLEMAS_ACADEMICOS
+"Me da terror la presentación del proyecto final",ESTRES_EXAMENES
+"Tengo pánico escénico cuando tengo que exponer",ESTRES_EXAMENES
+"No puedo comer nada antes de los exámenes",ESTRES_EXAMENES
+"Me despierto a las 3 AM pensando en la evaluación",ESTRES_EXAMENES
+"Siento que el corazón se me sale del pecho en los exámenes",ESTRES_EXAMENES
+"Me da diarrea cada vez que tengo una prueba importante",ESTRES_EXAMENES
+"No logro controlar los temblores durante las evaluaciones",ESTRES_EXAMENES
+"Siento que me voy a desmayar en medio del examen",ESTRES_EXAMENES
+"Tengo ataques de pánico antes de las presentaciones",ESTRES_EXAMENES
+"No puedo respirar bien cuando estoy siendo evaluado",ESTRES_EXAMENES
+"Me sudan las palmas tanto que no puedo escribir bien",ESTRES_EXAMENES
+"Siento náuseas terribles el día del examen",ESTRES_EXAMENES
+"Me quedo paralizado cuando veo las preguntas difíciles",ESTRES_EXAMENES
+"Tengo pesadillas recurrentes sobre reprobar exámenes",ESTRES_EXAMENES
+"Mi mente se pone en blanco totalmente durante las pruebas",ESTRES_EXAMENES
+"Siento que todos me están juzgando cuando presento",ESTRES_EXAMENES
+"Me tiembla la voz cuando tengo que hablar en público",ESTRES_EXAMENES
+"No puedo concentrarme porque pienso en el fracaso",ESTRES_EXAMENES
+"Siento que voy a vomitar antes de cada examen oral",ESTRES_EXAMENES
+"Me da claustrofobia estar en el salón de exámenes",ESTRES_EXAMENES
+"Tengo tics nerviosos que empeoran antes de las pruebas",ESTRES_EXAMENES
+"No logro estudiar porque la ansiedad me paraliza",ESTRES_EXAMENES
+"Siento que mi cerebro no funciona bajo presión",ESTRES_EXAMENES
+"Me da pánico que se acabe el tiempo en el examen",ESTRES_EXAMENES
+"Tengo crisis de ansiedad cada vez que hay evaluaciones",ESTRES_EXAMENES
+"Mi papá perdió el trabajo y estamos en crisis",PROBLEMAS_PERSONALES
+"Mis padres se pelean por dinero constantemente",PROBLEMAS_PERSONALES
+"Mi hermano menor tiene problemas de drogas",PROBLEMAS_PERSONALES
+"Mi mamá está en depresión y no sale de su cuarto",PROBLEMAS_PERSONALES
+"Tengo que trabajar para ayudar en casa y no puedo estudiar",PROBLEMAS_PERSONALES
+"Mi abuela tiene demencia y ya no me reconoce",PROBLEMAS_PERSONALES
+"Mis padres me presionan mucho para que sea perfecto",PROBLEMAS_PERSONALES
+"En casa todos gritan y no hay paz nunca",PROBLEMAS_PERSONALES
+"Mi familia no acepta mi orientación sexual",PROBLEMAS_PERSONALES
+"Tengo que cuidar a mis hermanos menores todo el tiempo",PROBLEMAS_PERSONALES
+"Mis padres no me dan dinero para gastos universitarios",PROBLEMAS_PERSONALES
+"Mi papá es muy autoritario y no puedo expresar mis opiniones",PROBLEMAS_PERSONALES
+"Mi mamá bebe alcohol a escondidas",PROBLEMAS_PERSONALES
+"Hay violencia psicológica constante en mi hogar",PROBLEMAS_PERSONALES
+"Mi familia critica todas mis decisiones",PROBLEMAS_PERSONALES
+"Mi pareja me dejó por mensaje de texto",PROBLEMAS_PERSONALES
+"Creo que mi novio me está mintiendo sobre muchas cosas",PROBLEMAS_PERSONALES
+"Mi relación se volvió tóxica y no sé cómo salir",PROBLEMAS_PERSONALES
+"Mi pareja me controla y me aísla de mis amigos",PROBLEMAS_PERSONALES
+"Tengo celos enfermizos que están arruinando mi relación",PROBLEMAS_PERSONALES
+"Mi ex no me deja en paz y me acosa constantemente",PROBLEMAS_PERSONALES
+"Mi pareja y yo queremos casarnos pero nuestras familias se oponen",PROBLEMAS_PERSONALES
+"No sé si perdonar una infidelidad de mi pareja",PROBLEMAS_PERSONALES
+"Mi relación de tres años terminó de la nada",PROBLEMAS_PERSONALES
+"Mi pareja no quiere tener hijos y yo sí",PROBLEMAS_PERSONALES
+"Estoy enamorado de mi mejor amigo pero él no lo sabe",PROBLEMAS_PERSONALES
+"Mi pareja me comparó con su ex y me lastimó mucho",PROBLEMAS_PERSONALES
+"No sé si lo que siento es amor verdadero o dependencia",PROBLEMAS_PERSONALES
+"Mi relación a distancia está acabando con mi salud mental",PROBLEMAS_PERSONALES
+"Mi pareja tiene problemas de ira que me asustan",PROBLEMAS_PERSONALES
+"No sé cómo decirle a mi familia que estoy en una relación del mismo sexo",PROBLEMAS_PERSONALES
+"Mi autoestima está por los suelos desde hace meses",PROBLEMAS_PERSONALES
+"Siento que soy un fracaso en todo lo que hago",PROBLEMAS_PERSONALES
+"No logro superar la muerte de mi padre",PROBLEMAS_PERSONALES
+"Tengo ataques de ansiedad que no puedo controlar",PROBLEMAS_PERSONALES
+"Me cuesta mucho trabajo decir que no a las personas",PROBLEMAS_PERSONALES
+"Siento que todo el mundo es mejor que yo",PROBLEMAS_PERSONALES
+"Tengo pensamientos negativos constantes sobre mí mismo",PROBLEMAS_PERSONALES
+"No logro perdonarme por errores del pasado",PROBLEMAS_PERSONALES
+"Me siento culpable por cosas que no son mi responsabilidad",PROBLEMAS_PERSONALES
+"Tengo miedo de que la gente descubra quién soy realmente",PROBLEMAS_PERSONALES
+"No encuentro mi lugar en el mundo",FALTA_MOTIVACION
+"Siento que mi vida es una rutina sin sentido",FALTA_MOTIVACION
+"Ya no me ilusiona nada del futuro",FALTA_MOTIVACION
+"Perdí completamente el interés en mis hobbies",FALTA_MOTIVACION
+"Me levanto cada día sin propósito alguno",FALTA_MOTIVACION
+"Siento que estoy desperdiciando mi potencial",FALTA_MOTIVACION
+"No veo la utilidad de seguir esforzándome",FALTA_MOTIVACION
+"Todo me parece gris y sin color",FALTA_MOTIVACION
+"No tengo aspiraciones ni metas que me emocionen",FALTA_MOTIVACION
+"Siento que estoy viviendo en cámara lenta",FALTA_MOTIVACION
+"No encuentro razones para levantarme temprano",FALTA_MOTIVACION
+"Me siento desconectado de mis sueños",FALTA_MOTIVACION
+"Ya no me importa si tengo éxito o fracaso",FALTA_MOTIVACION
+"Siento que perdí mi identidad en algún punto",FALTA_MOTIVACION
+"No recuerdo la última vez que me sentí entusiasmado",FALTA_MOTIVACION
+"Todo requiere un esfuerzo sobrehumano",FALTA_MOTIVACION
+"Me siento como un robot haciendo las mismas cosas",FALTA_MOTIVACION
+"No encuentro sentido a las cosas que antes me gustaban",FALTA_MOTIVACION
+"Siento que estoy perdiendo el tiempo de mi vida",FALTA_MOTIVACION
+"No tengo energía ni para las cosas básicas",FALTA_MOTIVACION
+"Me siento completamente apático hacia todo",FALTA_MOTIVACION
+"No sé qué me haría feliz en la vida",FALTA_MOTIVACION
+"Siento que estoy atrapado en una burbuja de aburrimiento",FALTA_MOTIVACION
+"Ya no me emociona la idea de graduarme",FALTA_MOTIVACION
+"No veo cómo mi carrera me va a dar satisfacción personal",FALTA_MOTIVACION
+"Estoy considerando seriamente cambiar de carrera",DUDAS_CARRERA
+"No me veo ejerciendo esta profesión por el resto de mi vida",DUDAS_CARRERA
+"Siento que mi carrera no tiene impacto social",DUDAS_CARRERA
+"Todos mis compañeros parecen más seguros de su elección que yo",DUDAS_CARRERA
+"No estoy seguro si tengo las habilidades para ser exitoso",DUDAS_CARRERA
+"Mi carrera no ofrece las oportunidades que esperaba",DUDAS_CARRERA
+"Creo que elegí esta carrera por presión familiar",DUDAS_CARRERA
+"No sé si podré encontrar trabajo bien remunerado",DUDAS_CARRERA
+"Mis materias no conectan con mis intereses reales",DUDAS_CARRERA
+"Siento que hay otras áreas que me gustarían más",DUDAS_CARRERA
+"No estoy seguro si vale la pena la inversión en tiempo y dinero",DUDAS_CARRERA
+"No me gustan mis clases",PROBLEMAS_ACADEMICOS
