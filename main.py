@@ -1,12 +1,12 @@
+# -*- coding: utf-8 -*-
 import logging
 import json
 import signal
 from datetime import datetime
-from interaction_data import InteractionData
 
 from conversational_interface import ConversationalInterface
 from emotional_analyzer import EmotionalAnalyzer
-from intention_analyzer import IntentionAnalyzer
+from intention_analyzer import IntentionAnalyzer, Intention
 from empathetic_response_generator import EmpatheticResponseGenerator
 from nao_robot_gestures import NAORobotGestures
 
@@ -41,7 +41,7 @@ class NAOCompanion:
                     break
                 self._process_user_input(user_input)
             except Exception as e:
-                logging.exception(f"Error procesando entrada del usuario: {str(e)}")
+                logging.exception("Error procesando entrada del usuario:",str(e))
                 self.conversational_interface.speak("Ocurrió un error. ¿Puedes repetir por favor?")
 
         self._end_session()
@@ -56,19 +56,6 @@ class NAOCompanion:
         self.robot_gestures.perform(emotion)
         self.conversational_interface.speak(response)
 
-        # Registro
-        interaction = InteractionData(
-            timestamp=datetime.now().isoformat(),
-            user_input=user_input,
-            detected_emotion=emotion,
-            detected_intention=intention,
-            confidence_emotion=conf_emotion,
-            confidence_intention=conf_intention,
-            response_generated=response,
-            escalation_needed=escalation
-        )
-        self.interactions.append(interaction)
-        logging.info(f"Interacción registrada: {interaction}")
 
     def _needs_escalation(self, emotion, intention):
         return emotion == "tristeza" and intention == "PROBLEMAS_PERSONALES"
@@ -86,7 +73,7 @@ class NAOCompanion:
             return
 
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"reports/session_report_{timestamp}.json"
+        filename = "reports/session_report_"+timestamp+".json"
 
         emotions = [i.detected_emotion for i in self.interactions]
         intentions = [i.detected_intention for i in self.interactions]
@@ -105,7 +92,7 @@ class NAOCompanion:
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(report, f, ensure_ascii=False, indent=4)
 
-        logging.info(f"📁 Reporte de sesión guardado en {filename}")
+        logging.info("📁 Reporte de sesión guardado en ",filename)
 
     def _handle_interrupt(self, sig, frame):
         print("\n⚠️ Interrupción detectada. Finalizando sesión...")
