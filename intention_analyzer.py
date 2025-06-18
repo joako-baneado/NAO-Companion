@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import re
 import joblib
 from enum import Enum
@@ -15,28 +16,23 @@ class Intention(Enum):
     DESPEDIDA = "DESPEDIDA"
     SIN_INTENCION = "SIN_INTENCION"
 
-# Cargar modelo
-modelo = joblib.load("modelo_intencion.pkl")
+class IntentionAnalyzer:
+    def __init__(self, model_path="./models/intention_model.pkl"):
+        self.model = joblib.load(model_path)
 
-def clean_text(text):
-    return re.sub(r"[^\w\s]", "", text.lower())
+    def clean_text(self, text: str) -> str:
+        return re.sub(r"[^\w\s]", "", text.lower())
 
-def detect_intention(text: str) -> Tuple[Intention, float]:
-    cleaned_text = clean_text(text)
-    proba = modelo.predict_proba([cleaned_text])[0]
-    pred_index = proba.argmax()
-    pred_label = modelo.classes_[pred_index]
-    confidence = round(proba[pred_index], 2)
+    def analyze(self, text: str) -> Tuple[Intention, float]:
+        cleaned_text = self.clean_text(text)
+        proba = self.model.predict_proba([cleaned_text])[0]
+        pred_index = proba.argmax()
+        pred_label = self.model.classes_[pred_index]
+        confidence = round(proba[pred_index], 2)
 
-    try:
-        intent_enum = Intention[pred_label]
-    except KeyError:
-        intent_enum = Intention.SIN_INTENCION
+        try:
+            intent_enum = Intention[pred_label]
+        except KeyError:
+            intent_enum = Intention.SIN_INTENCION
 
-    return (intent_enum, confidence)
-
-# Ejemplo de uso
-if __name__ == "__main__":
-    texto_usuario = input("Escribe tu mensaje: ")
-    intencion, confianza = detect_intention(texto_usuario)
-    print(f"🔎 Intención detectada: {intencion.value} | Confianza: {confianza}")
+        return (intent_enum, confidence)
