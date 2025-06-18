@@ -1,29 +1,20 @@
-import random
-import time
-from codigonao import iniciar_nao, escuchar, hablar
-from emotional_analyser import analizar_emocion
-from use_model import predecir_intencion
-from empathetic_response_generator import generar_respuesta_empatica
+# -*- coding: utf-8 -*-
+import speech_recognition as sr
 
-def iniciar_interaccion():
-    hablar("Hola, soy tu asistente emocional. ¿Cómo te sientes hoy?")
+# Crear un reconocedor
+r = sr.Recognizer()
 
-    while True:
-        texto_usuario = escuchar()
+# Cargar archivo de audio .wav (debe estar en formato PCM 16kHz)
+with sr.AudioFile("audio.wav") as source:
+    audio = r.record(source)
 
-        if texto_usuario:
-            if any(palabra in texto_usuario for palabra in ["salir", "adiós", "chao"]):
-                hablar("Gracias por compartir conmigo. Recuerda que no estás solo. Hasta luego.")
-                break
+print("Transcribiendo con Google Speech Recognition...")
 
-            emocion = analizar_emocion(texto_usuario)
-            intencion = predecir_intencion(texto_usuario)
-            respuesta = generar_respuesta_empatica(emocion, intencion, texto_usuario)
-
-            hablar(respuesta)
-        else:
-            hablar("No te entendí bien. ¿Puedes repetirlo?")
-        time.sleep(1)
-
-if __name__ == "__main__":
-    iniciar_interaccion()
+try:
+    texto = r.recognize_google(audio, language="es-ES")  # español
+    print("Texto transcrito:")
+    print(texto)
+except sr.UnknownValueError:
+    print("Google no pudo entender el audio.")
+except sr.RequestError as e:
+    print("Error al conectarse a Google:", e)
