@@ -1,5 +1,15 @@
 import joblib
 from typing import Dict, Tuple
+from enum import Enum
+
+class Emocion(Enum):
+    ANSIEDAD = "ANSIEDAD"
+    ALEGRIA = "ALEGRIA"
+    ESTRES = "ESTRES"
+    TRISTEZA = "TRISTEZA"
+    IRA = "IRA"
+    MIEDO = "MIEDO"
+    NEUTRO = "NEUTRO"
 
 class EmotionalAnalyzer:
     def __init__(self, model_path="model.pkl"):
