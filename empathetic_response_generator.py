@@ -1,4 +1,4 @@
-class GeneradoRespuestas:
+class EmpatheticResponseGenerator:
     def __init__(self, respuestas):
         self.respuestas = respuestas
         self.respuesta_generica = (
@@ -102,7 +102,7 @@ respuestas = {
 }
 
 # Crear instancia y probar
-banco = GeneradoRespuestas(respuestas)
+banco = EmpatheticResponseGenerator(respuestas)
 
 # Ejemplo de prueba
 print(banco.obtener_respuesta("alegria", "problemas_personales"))

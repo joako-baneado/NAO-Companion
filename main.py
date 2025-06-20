@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import os
 import logging
 import json
 import signal
@@ -8,18 +9,21 @@ from conversational_interface import ConversationalInterface
 from emotional_analyzer import EmotionalAnalyzer
 from intention_analyzer import IntentionAnalyzer, Intention
 from empathetic_response_generator import EmpatheticResponseGenerator
-from nao_robot_gestures import NAORobotGestures
+from respuestas import respuestas
+#from nao_robot_gestures import NAORobotGestures
 
 class NAOCompanion:
     def __init__(self):
         self.conversational_interface = ConversationalInterface()
         self.emotional_analyzer = EmotionalAnalyzer()
         self.intention_analyzer = IntentionAnalyzer()
-        self.response_generator = EmpatheticResponseGenerator()
-        self.robot_gestures = NAORobotGestures()
+        self.response_generator = EmpatheticResponseGenerator(respuestas)
+        #self.robot_gestures = NAORobotGestures()
         self.interactions = []
         self.session_active = True
 
+        # Crear automáticamente la carpeta logs si no existe
+        os.makedirs("logs", exist_ok=True)
         # Logging
         logging.basicConfig(
             filename='logs/session.log',
@@ -36,12 +40,12 @@ class NAOCompanion:
 
         while self.session_active:
             try:
-                user_input = self.conversational_interface.listen()
+                user_input = self.conversational_interface.transcribe_audio()
                 if self._is_exit_command(user_input):
                     break
                 self._process_user_input(user_input)
             except Exception as e:
-                logging.exception("Error procesando entrada del usuario:",str(e))
+                logging.exception("Error procesando entrada del usuario: {e}")
                 self.conversational_interface.speak("Ocurrió un error. ¿Puedes repetir por favor?")
 
         self._end_session()

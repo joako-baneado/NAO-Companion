@@ -1,0 +1,189 @@
+2025-06-19 20:00:37 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-19 20:00:42 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-19 20:01:22 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-19 20:15:26 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-19 20:16:07 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-19 20:19:22 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-19 20:20:18 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-19 20:22:05 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-19 20:22:11 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 43, in start_session
+    user_input = self.conversational_interface.transcribe_audio()
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\conversational_interface.py", line 17, in transcribe_audio
+    with sr.AudioFile(audio_path) as source:
+         ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Sebastian\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\speech_recognition\__init__.py", line 233, in __enter__
+    self.audio_reader = wave.open(self.filename_or_fileobject, "rb")
+                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 659, in open
+    return Wave_read(f)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 282, in __init__
+    f = builtins.open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'audio.wav'
+2025-06-19 20:22:15 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 43, in start_session
+    user_input = self.conversational_interface.transcribe_audio()
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\conversational_interface.py", line 17, in transcribe_audio
+    with sr.AudioFile(audio_path) as source:
+         ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Sebastian\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\speech_recognition\__init__.py", line 233, in __enter__
+    self.audio_reader = wave.open(self.filename_or_fileobject, "rb")
+                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 659, in open
+    return Wave_read(f)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 282, in __init__
+    f = builtins.open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'audio.wav'
+2025-06-19 20:22:18 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 43, in start_session
+    user_input = self.conversational_interface.transcribe_audio()
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\conversational_interface.py", line 17, in transcribe_audio
+    with sr.AudioFile(audio_path) as source:
+         ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Sebastian\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\speech_recognition\__init__.py", line 233, in __enter__
+    self.audio_reader = wave.open(self.filename_or_fileobject, "rb")
+                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 659, in open
+    return Wave_read(f)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 282, in __init__
+    f = builtins.open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'audio.wav'
+2025-06-19 20:22:22 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 43, in start_session
+    user_input = self.conversational_interface.transcribe_audio()
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\conversational_interface.py", line 17, in transcribe_audio
+    with sr.AudioFile(audio_path) as source:
+         ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Sebastian\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\speech_recognition\__init__.py", line 233, in __enter__
+    self.audio_reader = wave.open(self.filename_or_fileobject, "rb")
+                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 659, in open
+    return Wave_read(f)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 282, in __init__
+    f = builtins.open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'audio.wav'
+2025-06-19 20:22:43 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-19 20:22:49 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 43, in start_session
+    user_input = self.conversational_interface.transcribe_audio()
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\conversational_interface.py", line 17, in transcribe_audio
+    with sr.AudioFile(audio_path) as source:
+         ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Sebastian\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\speech_recognition\__init__.py", line 233, in __enter__
+    self.audio_reader = wave.open(self.filename_or_fileobject, "rb")
+                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 659, in open
+    return Wave_read(f)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 282, in __init__
+    f = builtins.open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'audio.wav'
+2025-06-19 20:22:53 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 43, in start_session
+    user_input = self.conversational_interface.transcribe_audio()
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\conversational_interface.py", line 17, in transcribe_audio
+    with sr.AudioFile(audio_path) as source:
+         ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Sebastian\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\speech_recognition\__init__.py", line 233, in __enter__
+    self.audio_reader = wave.open(self.filename_or_fileobject, "rb")
+                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 659, in open
+    return Wave_read(f)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 282, in __init__
+    f = builtins.open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'audio.wav'
+2025-06-19 20:22:57 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 43, in start_session
+    user_input = self.conversational_interface.transcribe_audio()
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\conversational_interface.py", line 17, in transcribe_audio
+    with sr.AudioFile(audio_path) as source:
+         ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Sebastian\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\speech_recognition\__init__.py", line 233, in __enter__
+    self.audio_reader = wave.open(self.filename_or_fileobject, "rb")
+                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 659, in open
+    return Wave_read(f)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 282, in __init__
+    f = builtins.open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'audio.wav'
+2025-06-19 20:23:01 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 43, in start_session
+    user_input = self.conversational_interface.transcribe_audio()
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\conversational_interface.py", line 17, in transcribe_audio
+    with sr.AudioFile(audio_path) as source:
+         ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Sebastian\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\speech_recognition\__init__.py", line 233, in __enter__
+    self.audio_reader = wave.open(self.filename_or_fileobject, "rb")
+                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 659, in open
+    return Wave_read(f)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 282, in __init__
+    f = builtins.open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'audio.wav'
+2025-06-19 20:28:08 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-19 20:28:13 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 43, in start_session
+    user_input = self.conversational_interface.transcribe_audio()
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\conversational_interface.py", line 17, in transcribe_audio
+    with sr.AudioFile(audio_path) as source:
+         ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Sebastian\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\speech_recognition\__init__.py", line 233, in __enter__
+    self.audio_reader = wave.open(self.filename_or_fileobject, "rb")
+                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 659, in open
+    return Wave_read(f)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 282, in __init__
+    f = builtins.open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'audio.wav'
+2025-06-19 20:28:17 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 43, in start_session
+    user_input = self.conversational_interface.transcribe_audio()
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\conversational_interface.py", line 17, in transcribe_audio
+    with sr.AudioFile(audio_path) as source:
+         ~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Sebastian\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\speech_recognition\__init__.py", line 233, in __enter__
+    self.audio_reader = wave.open(self.filename_or_fileobject, "rb")
+                        ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 659, in open
+    return Wave_read(f)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1520.0_x64__qbz5n2kfra8p0\Lib\wave.py", line 282, in __init__
+    f = builtins.open(f, 'rb')
+FileNotFoundError: [Errno 2] No such file or directory: 'audio.wav'
+2025-06-19 20:44:13 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-19 20:44:18 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 46, in start_session
+    self._process_user_input(user_input)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 54, in _process_user_input
+    emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmotionalAnalyzer' object has no attribute 'analyze'
+2025-06-19 21:57:19 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-19 21:57:24 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 46, in start_session
+    self._process_user_input(user_input)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 54, in _process_user_input
+    emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmotionalAnalyzer' object has no attribute 'analyze'
+2025-06-19 21:57:28 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 46, in start_session
+    self._process_user_input(user_input)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "c:\Users\Sebastian\Desktop\cloneRepoIA\NAO-Companion\main.py", line 54, in _process_user_input
+    emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmotionalAnalyzer' object has no attribute 'analyze'
