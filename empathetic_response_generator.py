@@ -10,7 +10,6 @@ class EmpatheticResponseGenerator:
         emocion = emocion.upper()
         if emocion in self.respuestas:
             respuestas_emocion = self.respuestas[emocion]
-            print(respuestas_emocion.get(intencion, respuestas_emocion))
             return respuestas_emocion.get(intencion, respuestas_emocion)
         else:
             return self.respuesta_generica

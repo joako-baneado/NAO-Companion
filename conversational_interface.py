@@ -1,16 +1,14 @@
 # -*- coding: utf-8 -*-
 import speech_recognition as sr
-import pyttsx3
+
+## FALTA QUE NAO GRABE Y HABLE AJUAAA
 
 class ConversationalInterface:
     def __init__(self):
         self.recognizer = sr.Recognizer()
-        self.tts_engine = pyttsx3.init()
 
     def speak(self, texto):
-        print(f"[Robot dice]: {texto}")
-        self.tts_engine.say(texto)
-        self.tts_engine.runAndWait()
+        print(texto)
 
     def transcribe_audio(self, audio_path="audio.wav"):
         try:
