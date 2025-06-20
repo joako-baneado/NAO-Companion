@@ -5,6 +5,7 @@ import json
 import signal
 from datetime import datetime
 
+
 from conversational_interface import ConversationalInterface
 from emotional_analyzer import EmotionalAnalyzer
 from intention_analyzer import IntentionAnalyzer
@@ -39,12 +40,21 @@ class NAOCompanion:
         self.conversational_interface.speak("Hola, soy NAO, tu asistente emocional. ¿Cómo te sientes hoy?")
 
         while self.session_active:
-            user_input = self.conversational_interface.transcribe_audio()
-            if self._is_exit_command(user_input):
-                break
-            self._process_user_input(user_input)
+                # 1. Hacer que NAO grabe el audio remoto
+                os.system("C:/Python27/python.exe nao_audio.py")
 
-        self._end_session()
+                # 2. Descargar audio desde NAO a la PC
+                descargado = self.conversational_interface.download_audio()
+                if not descargado:
+                    print("No se pudo descargar el audio. Saltando esta iteración.")
+                    break
+ 
+                # 3. Transcribir el audio descargado
+                user_input = self.conversational_interface.transcribe_audio()
+                if self._is_exit_command(user_input):
+                    break
+
+                self._process_user_input(user_input)
 
     def _process_user_input(self, user_input):
         emotion, conf_emotion, dist = self.emotional_analyzer.analyze(user_input)

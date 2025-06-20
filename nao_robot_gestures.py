@@ -18,6 +18,8 @@ def ejecutar_gesto(emocion, robot_ip="192.168.1.100", port=9559):
     else:
         posture.goToPosture("StandInit", 0.5)
 
+
+
 """
 from naoqi import ALProxy
 import time
