@@ -16,7 +16,7 @@ class EmotionalAnalyzer:
         self.model = joblib.load(model_path)
         self.labels = self.model.classes_
 
-    def detect_emotion_distribution(self, text: str) -> Tuple[str, float, Dict[str, float]]:
+    def analyze(self, text: str) -> Tuple[str, float, Dict[str, float]]:
         """
         Analiza el texto y retorna:
         - emoción predominante
@@ -35,16 +35,3 @@ class EmotionalAnalyzer:
         top_confidence = round(probs[max_idx] * 100, 2)
 
         return top_emotion, top_confidence, distribution
-
-# 🔎 Ejemplo de uso
-if __name__ == "__main__":
-    analyzer = EmotionalAnalyzer()
-    texto = input()
-    
-    emocion, confianza, distribucion = analyzer.detect_emotion_distribution(texto)
-    
-    print(f"Emoción predominante: {emocion}")
-    print(f"Confianza: {confianza}%")
-    print("Distribución emocional:")
-    for e, p in distribucion.items():
-        print(f"- {e}: {p}%")

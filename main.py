@@ -7,7 +7,7 @@ from datetime import datetime
 
 from conversational_interface import ConversationalInterface
 from emotional_analyzer import EmotionalAnalyzer
-from intention_analyzer import IntentionAnalyzer, Intention
+from intention_analyzer import IntentionAnalyzer
 from empathetic_response_generator import EmpatheticResponseGenerator
 from respuestas import respuestas
 #from nao_robot_gestures import NAORobotGestures
@@ -39,27 +39,24 @@ class NAOCompanion:
         self.conversational_interface.speak("Hola, soy NAO, tu asistente emocional. ¿Cómo te sientes hoy?")
 
         while self.session_active:
-            try:
-                user_input = self.conversational_interface.transcribe_audio()
-                if self._is_exit_command(user_input):
-                    break
-                self._process_user_input(user_input)
-            except Exception as e:
-                logging.exception("Error procesando entrada del usuario: {e}")
-                self.conversational_interface.speak("Ocurrió un error. ¿Puedes repetir por favor?")
-
-            print("PERRA")
+            user_input = self.conversational_interface.transcribe_audio()
+            if self._is_exit_command(user_input):
+                break
+            self._process_user_input(user_input)
 
         self._end_session()
 
     def _process_user_input(self, user_input):
-        emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
+        emotion, conf_emotion, dist = self.emotional_analyzer.analyze(user_input)
+        print("EMOCION: ", emotion, "CONFIANZA: ", conf_emotion)
         intention, conf_intention = self.intention_analyzer.analyze(user_input)
+        print("INTENCIÓN: ", intention, "CONFIANZA: ", conf_intention)
         escalation = self._needs_escalation(emotion, intention)
+        print("ESCALACION: ",escalation)
         response = self.response_generator.generate(emotion, intention)
 
         # Gesto y respuesta hablada
-        self.robot_gestures.perform(emotion)
+        #self.robot_gestures.perform(emotion)
         self.conversational_interface.speak(response)
 
 

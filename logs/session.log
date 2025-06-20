@@ -220,3 +220,1613 @@ Traceback (most recent call last):
     emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'EmotionalAnalyzer' object has no attribute 'analyze'
+2025-06-20 13:51:09 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 13:51:16 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 46, in start_session
+    self._process_user_input(user_input)
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 56, in _process_user_input
+    emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmotionalAnalyzer' object has no attribute 'analyze'
+2025-06-20 13:51:20 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 46, in start_session
+    self._process_user_input(user_input)
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 56, in _process_user_input
+    emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmotionalAnalyzer' object has no attribute 'analyze'
+2025-06-20 13:51:25 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 46, in start_session
+    self._process_user_input(user_input)
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 56, in _process_user_input
+    emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmotionalAnalyzer' object has no attribute 'analyze'
+2025-06-20 13:51:30 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 46, in start_session
+    self._process_user_input(user_input)
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 56, in _process_user_input
+    emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmotionalAnalyzer' object has no attribute 'analyze'
+2025-06-20 13:54:50 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 13:56:23 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 13:57:15 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:01:36 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:01:54 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:02:35 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:03:46 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:04:09 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:05:08 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:05:53 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:07:03 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:07:53 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:08:20 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:09:23 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:09:30 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(2, 22, None)
+2025-06-20 14:09:32 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(26, 28, None)
+2025-06-20 14:09:32 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(29, 35, None)
+2025-06-20 14:09:32 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(36, 39, None)
+2025-06-20 14:09:32 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(40, 41, None)
+2025-06-20 14:09:32 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(42, 47, None)
+2025-06-20 14:09:32 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(48, 50, None)
+2025-06-20 14:09:32 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(51, 54, None)
+2025-06-20 14:09:33 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(55, 60, None)
+2025-06-20 14:09:33 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(61, 71, None)
+2025-06-20 14:09:33 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(72, 77, None)
+2025-06-20 14:09:34 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(78, 89, None)
+2025-06-20 14:09:34 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(90, 93, None)
+2025-06-20 14:09:34 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(94, 101, None)
+2025-06-20 14:09:35 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(102, 110, None)
+2025-06-20 14:09:36 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(112, 115, None)
+2025-06-20 14:09:36 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(116, 123, None)
+2025-06-20 14:09:36 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(124, 126, None)
+2025-06-20 14:09:36 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(127, 134, None)
+2025-06-20 14:09:37 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(135, 136, None)
+2025-06-20 14:09:37 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(137, 147, None)
+2025-06-20 14:09:38 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(150, 155, None)
+2025-06-20 14:09:38 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(156, 159, None)
+2025-06-20 14:09:39 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(164, 179, None)
+2025-06-20 14:09:40 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(183, 185, None)
+2025-06-20 14:09:40 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(186, 192, None)
+2025-06-20 14:09:41 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(193, 196, None)
+2025-06-20 14:09:41 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(197, 200, None)
+2025-06-20 14:09:41 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(201, 210, None)
+2025-06-20 14:09:41 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(211, 214, None)
+2025-06-20 14:09:41 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(215, 223, None)
+2025-06-20 14:09:42 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(224, 227, None)
+2025-06-20 14:09:42 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(228, 238, None)
+2025-06-20 14:09:43 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(240, 243, None)
+2025-06-20 14:09:43 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(244, 247, None)
+2025-06-20 14:09:44 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(248, 255, None)
+2025-06-20 14:09:44 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(257, 263, None)
+2025-06-20 14:09:45 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(264, 270, None)
+2025-06-20 14:09:45 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(271, 274, None)
+2025-06-20 14:09:45 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(275, 282, None)
+2025-06-20 14:09:45 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(283, 285, None)
+2025-06-20 14:09:45 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(286, 294, None)
+2025-06-20 14:09:46 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(299, 319, None)
+2025-06-20 14:09:48 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(323, 325, None)
+2025-06-20 14:09:48 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(326, 332, None)
+2025-06-20 14:09:48 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(333, 338, None)
+2025-06-20 14:09:49 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(339, 342, None)
+2025-06-20 14:09:49 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(344, 348, None)
+2025-06-20 14:09:49 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(349, 350, None)
+2025-06-20 14:09:49 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(351, 354, None)
+2025-06-20 14:09:49 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(355, 363, None)
+2025-06-20 14:09:50 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(364, 374, None)
+2025-06-20 14:09:51 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(376, 386, None)
+2025-06-20 14:09:51 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(387, 394, None)
+2025-06-20 14:09:52 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(395, 399, None)
+2025-06-20 14:09:52 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(400, 407, None)
+2025-06-20 14:09:53 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(409, 412, None)
+2025-06-20 14:09:53 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(413, 419, None)
+2025-06-20 14:09:53 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(420, 428, None)
+2025-06-20 14:09:54 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(429, 431, None)
+2025-06-20 14:09:54 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(432, 435, None)
+2025-06-20 14:09:54 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(436, 443, None)
+2025-06-20 14:09:55 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(448, 464, None)
+2025-06-20 14:09:56 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(469, 472, None)
+2025-06-20 14:09:56 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(473, 477, None)
+2025-06-20 14:09:56 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(478, 481, None)
+2025-06-20 14:09:57 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(482, 487, None)
+2025-06-20 14:09:57 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(488, 498, None)
+2025-06-20 14:12:44 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:12:50 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(2, 22, None)
+2025-06-20 14:12:52 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(26, 28, None)
+2025-06-20 14:12:52 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(29, 35, None)
+2025-06-20 14:12:52 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(36, 39, None)
+2025-06-20 14:12:52 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(40, 41, None)
+2025-06-20 14:12:52 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(42, 47, None)
+2025-06-20 14:12:53 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(48, 50, None)
+2025-06-20 14:12:53 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(51, 54, None)
+2025-06-20 14:12:53 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(55, 60, None)
+2025-06-20 14:12:53 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(61, 71, None)
+2025-06-20 14:12:54 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(72, 77, None)
+2025-06-20 14:12:54 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(78, 89, None)
+2025-06-20 14:12:54 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(90, 93, None)
+2025-06-20 14:12:54 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(94, 101, None)
+2025-06-20 14:12:55 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(102, 110, None)
+2025-06-20 14:12:56 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(112, 115, None)
+2025-06-20 14:12:56 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(116, 123, None)
+2025-06-20 14:12:57 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(124, 126, None)
+2025-06-20 14:12:57 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(127, 134, None)
+2025-06-20 14:12:57 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(135, 136, None)
+2025-06-20 14:12:57 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(137, 147, None)
+2025-06-20 14:12:58 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(150, 155, None)
+2025-06-20 14:12:58 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(156, 159, None)
+2025-06-20 14:12:59 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(164, 179, None)
+2025-06-20 14:13:01 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(183, 185, None)
+2025-06-20 14:13:01 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(186, 192, None)
+2025-06-20 14:13:01 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(193, 196, None)
+2025-06-20 14:13:01 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(197, 200, None)
+2025-06-20 14:13:01 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(201, 210, None)
+2025-06-20 14:13:02 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(211, 214, None)
+2025-06-20 14:13:02 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(215, 223, None)
+2025-06-20 14:13:02 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(224, 227, None)
+2025-06-20 14:13:02 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(228, 238, None)
+2025-06-20 14:13:04 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(240, 243, None)
+2025-06-20 14:13:04 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(244, 247, None)
+2025-06-20 14:13:04 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(248, 255, None)
+2025-06-20 14:13:05 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(257, 263, None)
+2025-06-20 14:13:05 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(264, 270, None)
+2025-06-20 14:13:05 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(271, 274, None)
+2025-06-20 14:13:05 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(275, 282, None)
+2025-06-20 14:13:06 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(283, 285, None)
+2025-06-20 14:13:06 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(286, 294, None)
+2025-06-20 14:13:06 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(299, 319, None)
+2025-06-20 14:13:08 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(323, 325, None)
+2025-06-20 14:13:08 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(326, 332, None)
+2025-06-20 14:13:09 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(333, 338, None)
+2025-06-20 14:13:09 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(339, 342, None)
+2025-06-20 14:13:09 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(344, 348, None)
+2025-06-20 14:13:10 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(349, 350, None)
+2025-06-20 14:13:10 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(351, 354, None)
+2025-06-20 14:13:10 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(355, 363, None)
+2025-06-20 14:13:10 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(364, 374, None)
+2025-06-20 14:13:11 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(376, 386, None)
+2025-06-20 14:13:11 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(387, 394, None)
+2025-06-20 14:13:12 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(395, 399, None)
+2025-06-20 14:13:12 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(400, 407, None)
+2025-06-20 14:13:13 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(409, 412, None)
+2025-06-20 14:13:13 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(413, 419, None)
+2025-06-20 14:13:13 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(420, 428, None)
+2025-06-20 14:13:14 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(429, 431, None)
+2025-06-20 14:13:14 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(432, 435, None)
+2025-06-20 14:13:14 [ERROR]: Exception in _ISpeechVoiceEvents.Word implementation:
+Traceback (most recent call last):
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\_vtbl.py", line 176, in call_without_this
+    result = mth(*inargs)
+             ^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\comtypes\client\_events.py", line 194, in without_this
+    return func(*args, **kw)
+           ^^^^^^^^^^^^^^^^^
+  File "D:\anaconda3\envs\NAO\Lib\site-packages\pyttsx3\drivers\sapi5.py", line 182, in _ISpeechVoiceEvents_Word
+    current_word = current_text[char:char + length]
+                   ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: slice(436, 443, None)
+2025-06-20 14:14:31 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 14:15:03 [INFO]: \U0001f7e2 Sesión iniciada

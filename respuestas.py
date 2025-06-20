@@ -21,7 +21,7 @@ respuestas = {
         "DESPEDIDA": "Gracias por compartir tus emociones. Espero que esta conversación haya sido un alivio. Cuídate mucho, y recuerda que siempre puedes volver si lo necesitas.",
         "SIN_INTENCION": "Parece que sientes tristeza. Está bien reconocerlo. Haz algo pequeño por ti hoy, y permítete descansar. No estás solo/a. Aquí estoy para acompañarte."
     },
-    "ESTRES": {
+    "ESTRÉS": {
         "PROBLEMAS_ACADEMICOS": "Entiendo que los trabajos y tareas pueden abrumarte. Haz una lista de prioridades y enfócate en lo más urgente. Tienes la capacidad para manejarlo, paso a paso.",
         "ESTRES_EXAMENES": "Los exámenes generan mucho estrés. Descansa, repasa en bloques y no olvides respirar. No necesitas ser perfecto/a para hacerlo bien. Confía en lo que sabes.",
         "PROBLEMAS_PERSONALES": "Los temas personales también generan presión. Habla con alguien de confianza o busca un espacio seguro para desahogarte. Cuidarte emocionalmente también es una prioridad.",
@@ -32,7 +32,7 @@ respuestas = {
         "DESPEDIDA": "Gracias por darte un momento para conversar. Deseo que encuentres calma en lo que viene. Cuídate mucho.",
         "SIN_INTENCION": "Parece que estás bajo estrés. Trata de hacer una pausa consciente. Tu bienestar importa y no todo debe resolverse hoy. Respira."
     },
-    "ALEGRIA": {
+    "ALEGRÍA": {
         "PROBLEMAS_ACADEMICOS": "Es genial que a pesar de los retos académicos sigas manteniendo una actitud positiva. Esa energía te ayudará a superarlos. ¡Sigue así!",
         "ESTRES_EXAMENES": "Me alegra ver que enfrentas los exámenes con entusiasmo. Con esa actitud, tienes muchas más chances de triunfar.",
         "PROBLEMAS_PERSONALES": "Me alegra saber que, pese a los desafíos personales, encuentras motivos para sonreír. Esa fuerza interior es muy valiosa.",
