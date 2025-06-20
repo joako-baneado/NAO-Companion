@@ -12,7 +12,7 @@ class Emocion(Enum):
     NEUTRO = "NEUTRO"
 
 class EmotionalAnalyzer:
-    def __init__(self, model_path="model.pkl"):
+    def __init__(self, model_path="models/emotion_model.pkl"):
         self.model = joblib.load(model_path)
         self.labels = self.model.classes_
 

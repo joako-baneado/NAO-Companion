@@ -48,6 +48,8 @@ class NAOCompanion:
                 logging.exception("Error procesando entrada del usuario: {e}")
                 self.conversational_interface.speak("Ocurrió un error. ¿Puedes repetir por favor?")
 
+            print("PERRA")
+
         self._end_session()
 
     def _process_user_input(self, user_input):

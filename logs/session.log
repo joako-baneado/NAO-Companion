@@ -187,3 +187,36 @@ Traceback (most recent call last):
     emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: 'EmotionalAnalyzer' object has no attribute 'analyze'
+2025-06-20 13:49:52 [INFO]: \U0001f7e2 Sesión iniciada
+2025-06-20 13:49:57 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 46, in start_session
+    self._process_user_input(user_input)
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 56, in _process_user_input
+    emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmotionalAnalyzer' object has no attribute 'analyze'
+2025-06-20 13:50:01 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 46, in start_session
+    self._process_user_input(user_input)
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 56, in _process_user_input
+    emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmotionalAnalyzer' object has no attribute 'analyze'
+2025-06-20 13:50:04 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 46, in start_session
+    self._process_user_input(user_input)
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 56, in _process_user_input
+    emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmotionalAnalyzer' object has no attribute 'analyze'
+2025-06-20 13:50:07 [ERROR]: Error procesando entrada del usuario: {e}
+Traceback (most recent call last):
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 46, in start_session
+    self._process_user_input(user_input)
+  File "c:\Users\User\Documents\GitHub\NAO-Companion\main.py", line 56, in _process_user_input
+    emotion, conf_emotion = self.emotional_analyzer.analyze(user_input)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'EmotionalAnalyzer' object has no attribute 'analyze'
