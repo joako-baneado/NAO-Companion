@@ -12,13 +12,13 @@ class ConversationalInterface:
         self.nao_ip = nao_ip
         self.nao_user = nao_user
         self.nao_pass = nao_pass
-        self.remote_path = "/home/nao/recordings/audio.wav"
-        self.local_path = "audio.wav"
+        self.remote_path = "./audio.wav"
+        self.local_path = "./audio.wav"
 
     def grabar_con_nao(self):
             print("🎙️ Ejecutando grabación en NAO...")
             try:
-                subprocess.call(["python2", "audio_nao.py"])  # Usa python2 o la ruta exacta a tu Python 2.7
+                subprocess.call(["python2", "nao_audio.py"])  # Usa python2 o la ruta exacta a tu Python 2.7
             except Exception as e:
                 print("❌ Error al grabar audio con NAO:", e)
 
