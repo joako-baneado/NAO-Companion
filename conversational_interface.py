@@ -3,15 +3,18 @@ import speech_recognition as sr
 import paramiko
 import os
 import subprocess
+import requests
+import time
 
 class ConversationalInterface:
 
     
-    def __init__(self, nao_ip="192.168.108.36", nao_user="nao", nao_pass="nao"):
+    def __init__(self, nao_ip="192.168.108.36",nao_port = 9559, nao_user="nao", nao_pass="nao"):
         self.recognizer = sr.Recognizer()
         self.nao_ip = nao_ip
         self.nao_user = nao_user
         self.nao_pass = nao_pass
+        self.nao_port = nao_port
         self.remote_path = "/home/nao/audio.wav"
         self.local_path = "./audio.wav"
 
@@ -23,21 +26,22 @@ class ConversationalInterface:
                 print("❌ Error al grabar audio con NAO:", e)
 
     def download_audio(self):
-        print("⬇Descargando audio desde NAO...")
+        url = f"http://{self.nao_ip}:{self.nao_port}/audio.wav"
         try:
-            ssh = paramiko.SSHClient()
-            ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-            ssh.connect(self.nao_ip, username=self.nao_user, password=self.nao_pass)
-            sftp = ssh.open_sftp()
-            sftp.get(self.remote_path, self.local_path)
-            sftp.close()
-            ssh.close()
-            print("Audio descargado en:", self.local_path)
+            time.sleep(2)
+            response = requests.get(url)
+            with open(self.local_path, "wb") as f:
+                f.write(response.content)
+            print("✅ Audio descargado vía HTTP")
             return True
         except Exception as e:
-            print("Error al descargar el audio:", e)
+            print("❌ Error al descargar audio vía HTTP:", e)
             return False
-
+        
+    def hablartexto():
+        texto = input("Escriba por acá: ")
+        return texto
+    
     def transcribe_audio(self, audio_path="audio.wav"):
         try:
             with sr.AudioFile(audio_path) as source:
@@ -58,7 +62,7 @@ class ConversationalInterface:
         print("🗣️ NAO dice:", text)
         subprocess.run(
             ["C:/Python27/python.exe", "nao_speak.py"],
-            input="HOLA SOY NAO",
+            input=text,
             capture_output=False,  # Captura stdout y stderr
             text=True,
             timeout=10  # Opcional: evita que se congele si hay problemas

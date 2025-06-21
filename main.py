@@ -37,20 +37,23 @@ class NAOCompanion:
 
     def start_session(self):
         logging.info("🟢 Sesión iniciada")
-        self.conversational_interface.speak("Hola, soy NAO, tu asistente emocional. ¿Cómo te sientes hoy?")
+        self.conversational_interface.speak("Hola, soy NAO, tu asistente emocional. Como te sientes hoy?")
 
         while self.session_active:
                 # 1. Hacer que NAO grabe el audio remoto
-                self.conversational_interface.grabar_con_nao()
+                #self.conversational_interface.grabar_con_nao()
 
                 # 2. Descargar audio desde NAO a la PC
-                descargado = self.conversational_interface.download_audio()
+                """descargado = self.conversational_interface.download_audio()
                 if not descargado:
                     print("No se pudo descargar el audio. Saltando esta iteración.")
                     break
- 
+                """
                 # 3. Transcribir el audio descargado
-                user_input = self.conversational_interface.transcribe_audio()
+                #user_input = self.conversational_interface.transcribe_audio()
+
+                user_input = input("Escriba por aca: ")
+
                 if self._is_exit_command(user_input):
                     break
 
@@ -77,7 +80,7 @@ class NAOCompanion:
         return any(exit_word in user_input.lower() for exit_word in ["adiós", "chau", "terminar", "salir"])
 
     def _end_session(self):
-        self.conversational_interface.speak("Gracias por conversar conmigo. ¡Cuídate mucho!")
+        self.conversational_interface.speak("Gracias por conversar conmigo. Cuidate mucho!")
         self._generate_session_report()
         logging.info("🔴 Sesión finalizada")
 

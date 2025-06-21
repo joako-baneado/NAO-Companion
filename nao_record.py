@@ -19,4 +19,4 @@ def record_audio(duration=5):
     recorder.stopMicrophonesRecording()
     print("Grabación finalizada. Archivo guardado en:", output_path)
 
-record_audio(10)
+record_audio()

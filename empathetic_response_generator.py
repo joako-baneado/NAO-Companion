@@ -2,8 +2,8 @@ class EmpatheticResponseGenerator:
     def __init__(self, respuestas):
         self.respuestas = respuestas
         self.respuesta_generica = (
-            "Gracias por compartir lo que sientes. No estoy seguro de cómo describir esa emoción, "
-            "pero estoy aquí para escucharte y acompañarte."
+            "Gracias por compartir lo que sientes. No estoy seguro de como describir esa emocion, "
+            "pero estoy aqui para escucharte y acompañarte."
         )
 
     def generate(self, emocion, intencion):
