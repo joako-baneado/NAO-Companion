@@ -7,18 +7,18 @@ import subprocess
 class ConversationalInterface:
 
     
-    def __init__(self, nao_ip="192.168.1.100", nao_user="nao", nao_pass="nao"):
+    def __init__(self, nao_ip="192.168.108.36", nao_user="nao", nao_pass="nao"):
         self.recognizer = sr.Recognizer()
         self.nao_ip = nao_ip
         self.nao_user = nao_user
         self.nao_pass = nao_pass
-        self.remote_path = "./audio.wav"
+        self.remote_path = "/home/nao/audio.wav"
         self.local_path = "./audio.wav"
 
     def grabar_con_nao(self):
             print("🎙️ Ejecutando grabación en NAO...")
             try:
-                subprocess.call(["python2", "nao_audio.py"])  # Usa python2 o la ruta exacta a tu Python 2.7
+                subprocess.run(["C:/Python27/python.exe", "nao_record.py"])  # Usa python2 o la ruta exacta a tu Python 2.7
             except Exception as e:
                 print("❌ Error al grabar audio con NAO:", e)
 
@@ -54,5 +54,13 @@ class ConversationalInterface:
             return ""
 
     def speak(self, text):
+
         print("🗣️ NAO dice:", text)
+        subprocess.run(
+            ["C:/Python27/python.exe", "nao_speak.py"],
+            input="HOLA SOY NAO",
+            capture_output=False,  # Captura stdout y stderr
+            text=True,
+            timeout=10  # Opcional: evita que se congele si hay problemas
+        )
        

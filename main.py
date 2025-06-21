@@ -41,7 +41,7 @@ class NAOCompanion:
 
         while self.session_active:
                 # 1. Hacer que NAO grabe el audio remoto
-                os.system("C:/Python27/python.exe nao_audio.py")
+                self.conversational_interface.grabar_con_nao()
 
                 # 2. Descargar audio desde NAO a la PC
                 descargado = self.conversational_interface.download_audio()
