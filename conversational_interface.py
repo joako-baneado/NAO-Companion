@@ -9,7 +9,7 @@ import time
 class ConversationalInterface:
 
     
-    def __init__(self, nao_ip="192.168.108.36",nao_port = 9559, nao_user="nao", nao_pass="nao"):
+    def __init__(self, nao_ip="192.168.219.36",nao_port = 9559, nao_user="nao", nao_pass="nao"):
         self.recognizer = sr.Recognizer()
         self.nao_ip = nao_ip
         self.nao_user = nao_user
@@ -64,7 +64,6 @@ class ConversationalInterface:
             ["C:/Python27/python.exe", "nao_speak.py"],
             input=text,
             capture_output=False,  # Captura stdout y stderr
-            text=True,
-            timeout=10  # Opcional: evita que se congele si hay problemas
+            text=True
         )
        
