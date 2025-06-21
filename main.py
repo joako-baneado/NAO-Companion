@@ -55,6 +55,7 @@ class NAOCompanion:
                 user_input = input("Escriba por aca: ")
 
                 if self._is_exit_command(user_input):
+                    self.conversational_interface.speak("Chau papeto")
                     break
 
                 self._process_user_input(user_input)
