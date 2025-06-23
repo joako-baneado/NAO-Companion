@@ -44,11 +44,11 @@ class NAOCompanion:
                 #self.conversational_interface.grabar_con_nao()
 
                 # 2. Descargar audio desde NAO a la PC
-                """descargado = self.conversational_interface.download_audio()
-                if not descargado:
-                    print("No se pudo descargar el audio. Saltando esta iteración.")
-                    break
-                """
+                #descargado = self.conversational_interface.download_audio()
+                #if not descargado:
+                    #print("No se pudo descargar el audio. Saltando esta iteración.")
+                    #break
+                
                 # 3. Transcribir el audio descargado
                 #user_input = self.conversational_interface.transcribe_audio()
 

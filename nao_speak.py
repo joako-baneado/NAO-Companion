@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from naoqi import ALProxy
 import time
 import sys

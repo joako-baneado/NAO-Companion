@@ -39,7 +39,7 @@ class ConversationalInterface:
             return False
         
     def hablartexto():
-        texto = input("Escriba por acá: ")
+        texto = input("Escriba por aca: ")
         return texto
     
     def transcribe_audio(self, audio_path="audio.wav"):
