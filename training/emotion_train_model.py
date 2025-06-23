@@ -16,7 +16,7 @@ def limpiar_texto(texto):
     return texto
 
 # 1. Cargar dataset
-df = pd.read_csv("C:/Users/Sebastian/Desktop/cloneRepoIA/NAO-Companion/training/emotion_dataset.csv")
+df = pd.read_csv("./training/emotion_dataset.csv")
 df["text"] = df["text"].astype(str).apply(limpiar_texto)
 
 # 2. Dividir

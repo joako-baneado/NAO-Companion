@@ -12,7 +12,7 @@ def clean_text(text):
     return re.sub(r"[^\w\s]", "", text.lower())
 
 # Leer dataset
-df = pd.read_csv("dataset.csv")
+df = pd.read_csv("./training/intention_dataset.csv")
 df["texto"] = df["texto"].apply(clean_text)
 
 # Separar datos en entrenamiento y prueba
@@ -30,8 +30,8 @@ pipeline = Pipeline([
 pipeline.fit(X_train, y_train)
 
 # Guardar modelo
-joblib.dump(pipeline, "modelo_intencion.pkl")
-print("✅ Modelo entrenado y guardado como 'modelo_intencion.pkl'")
+joblib.dump(pipeline, "./models/intention_model.pkl")
+print("✅ Modelo entrenado y guardado como 'intention_model.pkl'")
 
 # Evaluación del modelo
 y_pred = pipeline.predict(X_test)
