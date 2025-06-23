@@ -1,0 +1,446 @@
+text,emotion
+"Estoy nerviosa por los exámenes finales",Ansiedad
+"Hoy me siento muy feliz y motivada",Alegría
+"Me siento estresado con tantas tareas",Estrés
+"Estoy muy triste por reprobar dos cursos",Tristeza
+"¡Estoy harto del sistema académico!",Ira
+"Tengo miedo de no pasar el curso de mate",Miedo
+"No sé cómo me siento hoy",Neutro
+"No aguanto más la presión, no duermo bien",Estrés
+"Me preocupa no conseguir prácticas pronto",Ansiedad
+"Estoy contenta porque me salió mi beca",Alegría
+"Estoy frustrado con el grupo, nadie hace nada",Ira
+"Recién entré a la universidad y me siento sola",Tristeza
+"Temo no adaptarme al ritmo de la universidad",Miedo
+"Me cuesta organizarme, siento mucha presión",Estrés
+"Mi ansiedad se dispara cuando pienso en los finales",Ansiedad
+"Hoy me siento neutral, todo normal",Neutro
+"Estoy agotado por tantos trabajos seguidos",Estrés
+"Siento una felicidad inmensa por acabar el ciclo",Alegría
+"Estoy molesto porque no me dejan cambiar de curso",Ira
+"Estoy triste porque me quedé sin laptop",Tristeza
+"Me da miedo hablar en exposiciones",Miedo
+"Me siento feliz por conocer nuevas personas",Alegría
+"Estoy desesperado, no entiendo nada de cálculo",Ansiedad
+"No puedo dormir bien desde que empezó el ciclo",Ansiedad
+"Estoy tranquila por fin terminé mis tareas",Alegría
+"No me siento ni bien ni mal, solo cansado",Neutro
+"Me frustra no poder concentrarme",Ira
+"Estoy angustiada por los pagos de la universidad",Ansiedad
+"Me siento solo aunque esté rodeado de gente",Tristeza
+"Temo desaprobar por tercera vez ese curso",Miedo
+"Estoy alegre porque por fin aprobé mate 1",Alegría
+"No sé si esto de la universidad es para mí",Tristeza
+"Estoy saturado, tengo tres entregas hoy",Estrés
+"Estoy feliz por el reconocimiento que recibí",Alegría
+"Me enoja que cambien el horario sin avisar",Ira
+"Siento que no encajo con mis compañeros",Tristeza
+"Estoy tenso por la entrevista de prácticas",Ansiedad
+"Me siento insegura cuando expongo",Miedo
+"Hoy tuve un día pesado, pero no estuvo mal",Neutro
+"Estoy al borde de un colapso emocional",Estrés
+"Estoy motivado para el nuevo ciclo",Alegría
+"Odio cómo nos evalúan en este curso",Ira
+"No quiero volver a la universidad mañana",Tristeza
+"Tengo miedo de no alcanzar mi promedio",Miedo
+"Estoy demasiado feliz, pasé todos mis cursos",Alegría
+"Estoy nerviosa por mi primera exposición",Ansiedad
+"Todo está tranquilo hoy, sin novedades",Neutro
+"Me siento impotente frente a tanto estrés",Estrés
+"Estoy agradecida por el apoyo de mis amigos",Alegría
+"No soporto al profesor, me hace sentir inútil",Ira
+"No sé si podré terminar la carrera",Tristeza
+"Siento pánico escénico cada vez que presento",Miedo
+"Estoy aliviada porque ya se acabó la semana",Alegría
+"Estoy enojado porque no puedo retirar el curso",Ira
+"Me invade una tristeza sin razón aparente",Tristeza
+"Me siento presionado por mis padres",Estrés
+"Estoy entusiasmado por la feria de proyectos",Alegría
+"No soporto más el tráfico para llegar a clases",Ira
+"Me da miedo no tener futuro profesional",Miedo
+"Estoy neutral, tratando de seguir el día",Neutro
+"Me preocupa no entender la materia",Ansiedad
+"Siento mariposas en el estómago antes del examen",Ansiedad
+"No puedo dormir pensando en los resultados",Ansiedad
+"Me sudan las manos cuando presento",Ansiedad
+"Tengo una sensación extraña en el pecho",Ansiedad
+"Me da vueltas el estómago de los nervios",Ansiedad
+"Siento que algo malo va a pasar",Ansiedad
+"No logro concentrarme por la preocupación",Ansiedad
+"Mi mente no para de dar vueltas",Ansiedad
+"Me siento inquieto todo el tiempo",Ansiedad
+"Tengo ganas de salir corriendo",Ansiedad
+"Me tiemblan las piernas de nervios",Ansiedad
+"Siento un nudo en la garganta",Ansiedad
+"Me preocupa decepcionar a mis padres",Ansiedad
+"No sé si podré con tanto trabajo",Ansiedad
+"Me da ansiedad pensar en el futuro",Ansiedad
+"Siento que me falta el aire",Ansiedad
+"Me preocupa quedarme sin tiempo",Ansiedad
+"Tengo miedo de fallar otra vez",Ansiedad
+"Me siento agobiado por las expectativas",Ansiedad
+"¡Qué día tan maravilloso!",Alegría
+"Me siento en las nubes",Alegría
+"Estoy radiante de felicidad",Alegría
+"No puedo parar de sonreír",Alegría
+"Me siento lleno de energía positiva",Alegría
+"¡Logré mi meta y estoy eufórico!",Alegría
+"Hoy todo me sale perfecto",Alegría
+"Me siento bendecido por la vida",Alegría
+"Estoy bailando de la emoción",Alegría
+"Mi corazón está lleno de alegría",Alegría
+"¡Qué hermoso es vivir!",Alegría
+"Me siento como si pudiera volar",Alegría
+"Estoy rebosante de felicidad",Alegría
+"Todo tiene color hoy",Alegría
+"Me despierto con una sonrisa",Alegría
+"Siento que puedo conquistar el mundo",Alegría
+"¡Estoy viviendo el mejor momento!",Alegría
+"Mi alma está cantando",Alegría
+"Cada día es una nueva aventura",Alegría
+"Me siento pleno y satisfecho",Alegría
+"Tengo demasiadas cosas que hacer",Estrés
+"Me siento abrumado por las responsabilidades",Estrés
+"No tengo tiempo para nada",Estrés
+"Mi cabeza va a explotar",Estrés
+"Siento una presión constante",Estrés
+"No puedo más con esta carga",Estrés
+"Me duele la cabeza de tanto pensar",Estrés
+"Siento que todo se me viene encima",Estrés
+"No encuentro ni un momento de paz",Estrés
+"Mi agenda está completamente llena",Estrés
+"Me siento como un resorte tenso",Estrés
+"Todo me urge al mismo tiempo",Estrés
+"Siento que voy a colapsar",Estrés
+"No logro relajarme ni un segundo",Estrés
+"Tengo mil cosas en la mente",Estrés
+"Me siento al borde del agotamiento",Estrés
+"No doy abasto con tanto trabajo",Estrés
+"Siento una opresión en el pecho",Estrés
+"Mi mente está saturada",Estrés
+"No puedo desconectarme nunca",Estrés
+"Me duele el corazón por dentro",Tristeza
+"Siento un vacío profundo",Tristeza
+"Las lágrimas no paran de salir",Tristeza
+"Me siento solo en el mundo",Tristeza
+"Todo me parece gris y sin sentido",Tristeza
+"No tengo ganas de hacer nada",Tristeza
+"Siento como si me hubieran partido",Tristeza
+"Mi alma está herida",Tristeza
+"No encuentro motivos para sonreír",Tristeza
+"Me siento hundido en la melancolía",Tristeza
+"El mundo se ve oscuro hoy",Tristeza
+"Siento que no valgo nada",Tristeza
+"Mi corazón está roto",Tristeza
+"Todo me recuerda lo que perdí",Tristeza
+"Siento una pena muy profunda",Tristeza
+"No logro salir de este pozo",Tristeza
+"Me siento desanimado totalmente",Tristeza
+"Las cosas ya no tienen el mismo sabor",Tristeza
+"Siento que la vida no tiene color",Tristeza
+"Me duele respirar de la tristeza",Tristeza
+"¡Ya no aguanto más esta situación!",Ira
+"Me hierve la sangre de coraje",Ira
+"Siento que voy a explotar",Ira
+"¡Esto es completamente injusto!",Ira
+"Me dan ganas de gritar muy fuerte",Ira
+"Estoy furioso por lo que pasó",Ira
+"¡No puedo creer tanta incompetencia!",Ira
+"Me saca de quicio esta actitud",Ira
+"¡Estoy hasta la coronilla!",Ira
+"Siento una rabia que me consume",Ira
+"¡Me tienen harto con sus excusas!",Ira
+"Estoy indignado por este trato",Ira
+"¡Ya basta de tanta mentira!",Ira
+"Me da una cólera terrible",Ira
+"¡Esto es el colmo de la irresponsabilidad!",Ira
+"Siento que se me sube la sangre",Ira
+"¡No voy a tolerar esto más!",Ira
+"Me provoca romper algo",Ira
+"¡Qué manera tan estúpida de actuar!",Ira
+"Estoy que echo chispas",Ira
+"Me aterra pensar en las consecuencias",Miedo
+"Siento escalofríos por todo el cuerpo",Miedo
+"Mi corazón late muy rápido",Miedo
+"Tengo terror de lo que pueda pasar",Miedo
+"Me paraliza la incertidumbre",Miedo
+"Siento pánico de enfrentarlo",Miedo
+"Me da pavor la oscuridad",Miedo
+"Tengo pesadillas con esa situación",Miedo
+"Me tiembla todo el cuerpo",Miedo
+"Siento que me persiguen mis miedos",Miedo
+"No me atrevo ni a intentarlo",Miedo
+"Me da horror pensar en fallar",Miedo
+"Tengo fobia a las alturas",Miedo
+"Me espanta la idea de estar solo",Miedo
+"Siento terror de hablar en público",Miedo
+"Me da miedo la reacción de otros",Miedo
+"Tengo pavor de los espacios cerrados",Miedo
+"Me aterra no ser suficientemente bueno",Miedo
+"Siento escalofríos de solo pensarlo",Miedo
+"Me paraliza el miedo al rechazo",Miedo
+"Hoy es un día como cualquier otro",Neutro
+"Me siento normal, sin emociones fuertes",Neutro
+"No tengo nada particular que reportar",Neutro
+"Mi estado de ánimo está equilibrado",Neutro
+"Me siento tranquilo y sereno",Neutro
+"Todo fluye con normalidad",Neutro
+"No siento ni frío ni calor emocional",Neutro
+"Estoy en un punto medio",Neutro
+"Mi mente está calmada",Neutro
+"Me siento estable emocionalmente",Neutro
+"Hoy no hay altibajos",Neutro
+"Todo está en su lugar",Neutro
+"Me encuentro en paz conmigo mismo",Neutro
+"No hay tormentas en mi interior",Neutro
+"Fluyo con lo que venga",Neutro
+"Mi corazón late con tranquilidad",Neutro
+"Me siento centrado y enfocado",Neutro
+"Todo está bien tal como está",Neutro
+"No necesito nada más en este momento",Neutro
+"Me siento en armonía",Neutro
+"Me angustia no saber qué estudiar",Ansiedad
+"Siento mariposas cuando veo a esa persona",Ansiedad
+"Me preocupa no tener suficiente dinero",Ansiedad
+"Mi respiración se agita cuando pienso en eso",Ansiedad
+"Tengo ansiedad por el resultado médico",Ansiedad
+"Me inquieta el silencio de mi pareja",Ansiedad
+"Siento nervios en el estómago",Ansiedad
+"Me preocupa lo que dirán de mí",Ansiedad
+"Tengo una sensación de urgencia constante",Ansiedad
+"Me agobia pensar en todas mis deudas",Ansiedad
+"Siento que algo terrible va a ocurrir",Ansiedad
+"Me preocupa perder mi trabajo",Ansiedad
+"Tengo ansiedad por la entrevista",Ansiedad
+"Me inquieta no recibir noticias",Ansiedad
+"Siento tensión en todo mi cuerpo",Ansiedad
+"Me preocupa la salud de mis padres",Ansiedad
+"Tengo nervios por la primera cita",Ansiedad
+"Me angustia no cumplir las expectativas",Ansiedad
+"Siento inquietud por el cambio de casa",Ansiedad
+"Me preocupa no encajar en el grupo",Ansiedad
+"¡Aprobé el examen más difícil!",Alegría
+"Me siento como ganador de lotería",Alegría
+"¡Qué hermoso amanecer el de hoy!",Alegría
+"Mi familia me llena de dicha",Alegría
+"Estoy emocionado por el viaje",Alegría
+"¡Conseguí el trabajo de mis sueños!",Alegría
+"Me siento afortunado de estar vivo",Alegría
+"¡Hoy es mi día de suerte!",Alegría
+"Mi corazón rebosa de gratitud",Alegría
+"¡Qué alegría ver crecer a mis hijos!",Alegría
+"Me siento pleno con mis logros",Alegría
+"¡Estoy viviendo mi mejor versión!",Alegría
+"Cada momento es un regalo",Alegría
+"Me emociona lo que está por venir",Alegría
+"¡Qué maravilloso es amar!",Alegría
+"Me siento conectado con el universo",Alegría
+"¡Todo sale mejor de lo esperado!",Alegría
+"Mi alma baila de felicidad",Alegría
+"¡Estoy disfrutando cada segundo!",Alegría
+"Me siento bendecido por tener amigos",Alegría
+"No puedo con tanto trabajo acumulado",Estrés
+"Siento presión en las sienes",Estrés
+"Mi agenda no tiene espacios libres",Estrés
+"Me estresa la falta de organización",Estrés
+"Siento que el tiempo se me escapa",Estrés
+"Tengo los músculos tensos del estrés",Estrés
+"Me agobia tener que decidir ya",Estrés
+"Siento que todos esperan mucho de mí",Estrés
+"No logro despejar mi mente",Estrés
+"Me estresa no poder controlar todo",Estrés
+"Siento una carga pesada en los hombros",Estrés
+"Mi nivel de estrés está al máximo",Estrés
+"No encuentro tiempo para mí mismo",Estrés
+"Me agota estar siempre corriendo",Estrés
+"Siento que vivo en modo supervivencia",Estrés
+"Mi paciencia está al límite",Estrés
+"No puedo relajarme ni durmiendo",Estrés
+"Siento que todo me sobrepasa",Estrés
+"Mi mente no para ni un segundo",Estrés
+"Me estresa la incertidumbre del futuro",Estrés
+"Me duele ver sufrir a mi mascota",Tristeza
+"Siento nostalgia por los viejos tiempos",Tristeza
+"Mi corazón llora por dentro",Tristeza
+"Me entristece la injusticia mundial",Tristeza
+"Siento melancolía cuando llueve",Tristeza
+"Me duele no poder ayudar más",Tristeza
+"Siento pena por las oportunidades perdidas",Tristeza
+"Mi alma está cargada de tristeza",Tristeza
+"Me entristece ver a mis padres envejecer",Tristeza
+"Siento dolor por las palabras no dichas",Tristeza
+"Me duele recordar lo que ya no está",Tristeza
+"Siento vacío donde antes había amor",Tristeza
+"Me entristece la distancia con mis seres queridos",Tristeza
+"Siento pesar por mis errores pasados",Tristeza
+"Mi corazón está gris como el cielo",Tristeza
+"Me duele la soledad del domingo",Tristeza
+"Siento tristeza al ver las noticias",Tristeza
+"Mi alma llora lágrimas invisibles",Tristeza
+"Me entristece no poder cumplir promesas",Tristeza
+"Siento pena por el tiempo perdido",Tristeza
+"¡Me indigna tanta corrupción!",Ira
+"Siento rabia por la traición",Ira
+"¡No soporto la hipocresía!",Ira
+"Me enoja la falta de respeto",Ira
+"¡Estoy harto de las mentiras!",Ira
+"Siento cólera por la injusticia",Ira
+"¡Me irrita su actitud soberbia!",Ira
+"Estoy furioso por el maltrato animal",Ira
+"¡No tolero la discriminación!",Ira
+"Me da rabia la impuntualidad",Ira
+"¡Estoy indignado por el abuso!",Ira
+"Siento ira por la desigualdad",Ira
+"¡Me molesta profundamente su egoísmo!",Ira
+"Estoy enojado por la falta de empatía",Ira
+"¡Me causa cólera tanta ignorancia!",Ira
+"Siento furia por la violencia",Ira
+"¡Estoy hasta las narices de excusas!",Ira
+"Me enfurece la irresponsabilidad",Ira
+"¡No puedo con tanta mediocridad!",Ira
+"Siento rabia por el desperdicio",Ira
+"Me aterra hablar en público",Miedo
+"Tengo miedo de volar en avión",Miedo
+"Me da pavor quedarme solo en casa",Miedo
+"Siento terror por las arañas",Miedo
+"Me espanta la idea de envejecer",Miedo
+"Tengo miedo de no ser amado",Miedo
+"Me aterra perder a mis seres queridos",Miedo
+"Siento pánico en los ascensores",Miedo
+"Me da miedo confiar otra vez",Miedo
+"Tengo terror de decepcionar",Miedo
+"Me espanta la posibilidad de fracasar",Miedo
+"Siento miedo de los cambios bruscos",Miedo
+"Me aterra quedarme sin trabajo",Miedo
+"Tengo pánico a las multitudes",Miedo
+"Me da miedo mostrar vulnerabilidad",Miedo
+"Siento terror por las enfermedades",Miedo
+"Me espanta la oscuridad total",Miedo
+"Tengo miedo de tomar decisiones",Miedo
+"Me aterra el paso del tiempo",Miedo
+"Siento pavor por lo desconocido",Miedo
+"Todo fluye de manera natural",Neutro
+"Me siento en equilibrio perfecto",Neutro
+"Hoy no hay emociones intensas",Neutro
+"Mi estado es de calma absoluta",Neutro
+"Me encuentro en punto neutro",Neutro
+"Siento serenidad en mi interior",Neutro
+"Todo está en su justa medida",Neutro
+"Mi mente navega en aguas tranquilas",Neutro
+"No hay turbulencias emocionales",Neutro
+"Me siento estable como una roca",Neutro
+"Fluyo con la corriente de la vida",Neutro
+"Mi corazón late con normalidad",Neutro
+"Estoy en un estado de quietud",Neutro
+"No hay prisa ni urgencia",Neutro
+"Me siento centrado en el presente",Neutro
+"Todo está donde debe estar",Neutro
+"Mi energía está balanceada",Neutro
+"Navego en mares de tranquilidad",Neutro
+"Me encuentro en armonía total",Neutro
+"Siento paz en cada respiración",Neutro
+"Me preocupa el examen de mañana",Ansiedad
+"Siento nervios por la cita médica",Ansiedad
+"Me angustia no encontrar trabajo",Ansiedad
+"Tengo ansiedad por la mudanza",Ansiedad
+"Me inquieta el comportamiento de mi hijo",Ansiedad
+"Siento tensión por la reunión familiar",Ansiedad
+"Me preocupa el estado de mi salud",Ansiedad
+"Tengo nervios por conocer a sus padres",Ansiedad
+"Me angustia la situación económica",Ansiedad
+"Siento inquietud por el viaje solo",Ansiedad
+"¡Estoy emocionado por la graduación!",Alegría
+"Me llena de gozo ver a mi bebé",Alegría
+"¡Qué alegría tener amigos verdaderos!",Alegría
+"Siento júbilo por el reconocimiento",Alegría
+"¡Me emociona mucho este proyecto!",Alegría
+"Mi corazón salta de felicidad",Alegría
+"¡Estoy eufórico por la noticia!",Alegría
+"Me siento radiante como el sol",Alegría
+"¡Qué dicha poder ayudar a otros!",Alegría
+"Siento alegría pura en mi alma",Alegría
+"Me siento sobrecargado de responsabilidades",Estrés
+"No puedo más con esta rutina",Estrés
+"Siento que me ahogo en obligaciones",Estrés
+"Mi cabeza está a punto de explotar",Estrés
+"Me agobia la presión del jefe",Estrés
+"Siento como si corriera una maratón",Estrés
+"No logro encontrar un momento de calma",Estrés
+"Me estresa la multitarea constante",Estrés
+"Siento que voy en piloto automático",Estrés
+"Mi cuerpo está tenso todo el día",Estrés
+"Lloro sin motivo aparente",Tristeza
+"Me siento vacío por dentro",Tristeza
+"Siento nostalgia por mi infancia",Tristeza
+"Me duele el alma profundamente",Tristeza
+"Siento pena por los animales abandonados",Tristeza
+"Me entristece la soledad nocturna",Tristeza
+"Mi corazón está pesado como plomo",Tristeza
+"Siento melancolía con esta canción",Tristeza
+"Me duele ver tanto sufrimiento",Tristeza
+"Siento tristeza por los sueños rotos",Tristeza
+"¡Me enfurece la falta de educación!",Ira
+"Siento cólera por el maltrato infantil",Ira
+"¡Estoy harto de las promesas falsas!",Ira
+"Me da rabia la contaminación",Ira
+"¡No soporto la injusticia social!",Ira
+"Siento ira por la violencia doméstica",Ira
+"¡Me indigna el desperdicio de comida!",Ira
+"Estoy furioso por la traición",Ira
+"¡Me molesta la falta de puntualidad!",Ira
+"Siento cólera por la destrucción ambiental",Ira
+"Me da pánico hablar por teléfono",Miedo
+"Tengo terror a los espacios abiertos",Miedo
+"Me espanta la idea de enfermarme",Miedo
+"Siento miedo de ser juzgado",Miedo
+"Me aterra la posibilidad de morir",Miedo
+"Tengo pánico a las alturas extremas",Miedo
+"Me da miedo expresar mis sentimientos",Miedo
+"Siento terror por los ruidos fuertes",Miedo
+"Me espanta quedarme sin familia",Miedo
+"Tengo miedo de no ser suficiente",Miedo
+"Me siento en un estado contemplativo",Neutro
+"Todo transcurre con normalidad",Neutro
+"Mi energía está en punto medio",Neutro
+"Siento calma en mi respiración",Neutro
+"Me encuentro en estado de observación",Neutro
+"No hay alteraciones en mi ánimo",Neutro
+"Fluyo con tranquilidad absoluta",Neutro
+"Mi mente está clara y despejada",Neutro
+"Siento estabilidad emocional",Neutro
+"Todo está en perfecto equilibrio",Neutro
+"Me inquieta no tener noticias suyas",Ansiedad
+"Siento mariposas antes de la presentación",Ansiedad
+"Me preocupa la reacción de mi familia",Ansiedad
+"Tengo ansiedad por el resultado del análisis",Ansiedad
+"Me angustia tomar la decisión correcta",Ansiedad
+"¡Conseguí el ascenso que tanto quería!",Alegría
+"Me siento como flotando en una nube",Alegría
+"¡Qué hermoso es despertar agradecido!",Alegría
+"Mi corazón está lleno de esperanza",Alegría
+"¡Estoy viviendo un sueño hecho realidad!",Alegría
+"Siento que el mundo se me viene encima",Estrés
+"No tengo ni un minuto libre",Estrés
+"Me agobia tener que elegir ya",Estrés
+"Siento presión constante en el pecho",Estrés
+"Mi nivel de estrés está desbordado",Estrés
+"Me duele recordar esas palabras",Tristeza
+"Siento un hueco en el corazón",Tristeza
+"Me entristece ver pasar los años",Tristeza
+"Mi alma llora en silencio",Tristeza
+"Siento pena por las oportunidades perdidas",Tristeza
+"¡No puedo creer tanta negligencia!",Ira
+"Me hierve la sangre de indignación",Ira
+"¡Estoy furioso por el engaño!",Ira
+"Siento rabia por tanta incompetencia",Ira
+"¡Me saca de quicio su arrogancia!",Ira
+"Me aterra enfrentar mis miedos",Miedo
+"Tengo pánico de quedar en ridículo",Miedo
+"Me da miedo abrir mi corazón",Miedo
+"Siento terror por la incertidumbre",Miedo
+"Me espanta la idea del rechazo",Miedo
+"Observo el día sin juicios",Neutro
+"Me siento como agua quieta",Neutro
+"Todo fluye en perfecta armonía",Neutro
+"Mi estado es de pura observación",Neutro
+"Siento paz en cada latido",Neutro
